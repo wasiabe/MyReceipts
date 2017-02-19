@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a,armeabi"
+    api-level="24"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="168570330973707"
+    token="-112667981828121611"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="582" />
+    <task
+        name="instant-run-dex"
+        duration="996" />
+    <task
+        name="instant-run-transform"
+        duration="216" />
+    <task
+        name="verifier"
+        duration="47" />
+
+    <artifact
+        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="168258635331574"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="168570330973707"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
