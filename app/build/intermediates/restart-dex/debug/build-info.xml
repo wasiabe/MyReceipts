@@ -5,40 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="168570330973707"
+    timestamp="169598267957635"
     token="-112667981828121611"
-    verifier="COMPATIBLE" >
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="582" />
+        duration="2551" />
     <task
         name="instant-run-dex"
-        duration="996" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="216" />
+        duration="374" />
     <task
         name="verifier"
-        duration="47" />
+        duration="49" />
 
     <artifact
-        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="168258635331574"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="169598267957635"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="168570330973707"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
