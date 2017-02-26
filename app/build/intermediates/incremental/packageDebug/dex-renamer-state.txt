@@ -1,4 +1,4 @@
-#Sun Feb 19 23:05:29 CST 2017
+#Sun Feb 26 20:02:07 CST 2017
 base.0=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860
 renamed.1=classes.dex
 renamed.0=classes2.dex

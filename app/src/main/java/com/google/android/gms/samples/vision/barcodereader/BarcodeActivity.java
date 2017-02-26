@@ -30,6 +30,10 @@ import com.google.android.gms.vision.barcode.Barcode;
 
 import java.util.ArrayList;
 
+import com.wasiable.android.myreceipts.*;
+
+
+
 /**
  * Main activity demonstrating how to pass extra parameters to an activity that
  * reads barcodes.
@@ -45,6 +49,8 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
     private static final int RC_BARCODE_CAPTURE = 9001;
     private static final String TAG = "BarcodeMain";
     private static final int LEFT_BARCODE_VALUE_BASIC_LENGTH=77;
+
+    private Receipt receipt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,6 +80,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
             intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
 
             startActivityForResult(intent, RC_BARCODE_CAPTURE);
+
         }
 
     }
@@ -110,6 +117,8 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                 if (data != null) {
                     statusMessage.setText(R.string.barcode_success);
 
+                    receipt = new Receipt();
+
                     Barcode barcodeLeft = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObjectLeft);
                     if (barcodeLeft!=null) {
                         lstLeft = parseBarcodeValueLeft(barcodeLeft.displayValue);
@@ -123,11 +132,27 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                     //barcodeValue.setText("Left:" + barcodeLeft.displayValue + "/n Right:" + barcodeRight.displayValue);
                     lstLeft.addAll(lstRight);
                     String[] lstReceiptInfo = lstLeft.toArray(new String[lstLeft.size()]);
+
                     AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
                             .setTitle("Receipt Information")
                             .setItems(lstReceiptInfo, null)
                             .setPositiveButton(R.string.ok, null)
                             .show();
+
+                    ReceiptFile receiptFile = new ReceiptFile();
+                    try {
+                        receiptFile.WriteReceiptToFile(this, receipt);
+                        String s = receiptFile.ReadReceiptFile(this, receipt);
+                        AlertDialog diagReceiptFile = new AlertDialog.Builder(this)
+                                .setTitle("Receipt File Content")
+                                .setMessage(s)
+                                .setPositiveButton(R.string.ok, null)
+                                .show();
+
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
 
                 } else {
                     statusMessage.setText(R.string.barcode_failure);
@@ -154,6 +179,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
             }
         }
         ArrayList<String> lstItemJSON = parseItemInfo(barcodeValue);
+        receipt.setItemContent(lstItemJSON);
 
         return lstItemJSON;
     }
@@ -164,20 +190,26 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
         String itemName = "";
         String itemQuantity = "";
         String unitPrice = "";
+        String itemNameDisp = "";
+        String itemQuantityDisp = "";
+        String unitPriceDisp = "";
 
         String[] lstItemInfo = ItemInfo.split(":");
         for(i=0; i<lstItemInfo.length; i++) {
             switch (i % 3) {
                 case 0:
                     if (!lstItemInfo[i].isEmpty()) {
-                        itemName = getString(R.string.item_name) + ":" + lstItemInfo[i];
+                        itemName = Receipt.getItmeNameKey() + ":" + lstItemInfo[i];
+                        itemNameDisp = getString(R.string.item_name) + ":" + lstItemInfo[i];
                     }
                     break;
                 case 1:
-                    itemQuantity = getString(R.string.item_quantity) + ":" + lstItemInfo[i];;
+                    itemQuantity = Receipt.getItemQuantityKey() + ":" + lstItemInfo[i];
+                    itemQuantityDisp = getString(R.string.item_quantity) + ":" + lstItemInfo[i];;
                     break;
                 case 2:
-                    unitPrice = getString(R.string.unit_price) + ":" + lstItemInfo[i];
+                    unitPrice = Receipt.getUnitPriceKey() + ":" + lstItemInfo[i];
+                    unitPriceDisp = getString(R.string.unit_price) + ":" + lstItemInfo[i];
                     lstItemJSON.add("{"+itemName+","+itemQuantity+","+unitPrice+"}");
                     break;
             }
@@ -239,6 +271,20 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
         lstReceiptInfo.add(getString( R.string.total_item_count )+ ":" + ttlItemCount);
         lstReceiptInfo.add(getString( R.string.chinese_encode )+ ":" + chineseEncode);
         lstReceiptInfo.addAll(lstItemJSON);
+
+        // Set value to  receipt object
+        receipt.setReceiptNo(receiptNo);
+        receipt.setReceiptDate(receiptDate);
+        receipt.setRandomCode(randomCode);
+        receipt.setSalesAmountHex(salesAmountHex);
+        receipt.setSalesAmount(Integer.valueOf(SalesAmount));
+        receipt.setTotalAmountHex(totalSalesAmountHex);
+        receipt.setTotalAmount(Integer.valueOf(TotalAmount));
+        receipt.setBuyerEIN(buyerEIN);
+        receipt.setSalerEIN(salerEIN);
+        receipt.setEncryptCode(encryptCode);
+        receipt.setSalerData(salerData);
+        receipt.setItemContent(lstItemJSON);
 
         return lstReceiptInfo;
     }

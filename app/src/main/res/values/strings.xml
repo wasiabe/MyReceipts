@@ -29,4 +29,5 @@
     <string name="total_item_count">Total Items</string>
     <string name="saler_data">Saler Data</string>
     <string name="chinese_encode">Chinese Encode</string>
+    <string name="title_activity_test">TestActivity</string>
 </resources>
