@@ -5,51 +5,45 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="4684274529486"
+    timestamp="8552201860399"
     token="-112667981828121611"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="584" />
+        duration="469" />
     <task
         name="instant-run-dex"
-        duration="572" />
+        duration="0" />
     <task
         name="instant-run-transform"
         duration="55" />
     <task
         name="verifier"
-        duration="23" />
+        duration="6" />
 
     <artifact
-        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+        type="DEX" />
+    <artifact
+        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="1792543900433"
+        timestamp="7783455879922"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="694873693829563"
+        timestamp="8552201860399"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
         <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
             type="DEX" />
         <artifact
-            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
             type="DEX" />
     </build>
 

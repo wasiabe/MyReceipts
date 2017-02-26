@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Feb 26 20:02:07 CST 2017
+#Sun Feb 26 21:44:10 CST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_search_url_text.xml
 14.set=ANDROID_RESOURCE

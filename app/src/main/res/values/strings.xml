@@ -30,4 +30,5 @@
     <string name="saler_data">Saler Data</string>
     <string name="chinese_encode">Chinese Encode</string>
     <string name="title_activity_test">TestActivity</string>
+    <string name="receipt_duplicated">Receipt has already been scanned before !!</string>
 </resources>

@@ -24,6 +24,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
@@ -132,27 +133,26 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                     //barcodeValue.setText("Left:" + barcodeLeft.displayValue + "/n Right:" + barcodeRight.displayValue);
                     lstLeft.addAll(lstRight);
                     String[] lstReceiptInfo = lstLeft.toArray(new String[lstLeft.size()]);
-
-                    AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
-                            .setTitle("Receipt Information")
-                            .setItems(lstReceiptInfo, null)
-                            .setPositiveButton(R.string.ok, null)
-                            .show();
-
+                    // Write to receipt file
                     ReceiptFile receiptFile = new ReceiptFile();
                     try {
-                        receiptFile.WriteReceiptToFile(this, receipt);
-                        String s = receiptFile.ReadReceiptFile(this, receipt);
-                        AlertDialog diagReceiptFile = new AlertDialog.Builder(this)
-                                .setTitle("Receipt File Content")
-                                .setMessage(s)
-                                .setPositiveButton(R.string.ok, null)
-                                .show();
+                        if (receiptFile.isReceiptDuplicated(this, receipt) ) {
+                            Log.i("isReceiptDuplicated","YES");
+                            TextView tvBarcodeValue = (TextView)findViewById(R.id.barcode_value);
+                            tvBarcodeValue.setText(getString(R.string.receipt_duplicated));
+                            Toast.makeText(this, getString(R.string.receipt_duplicated),  Toast.LENGTH_LONG);
+                        } else {
+                            receiptFile.WriteReceiptToFile(this, receipt);
+                            AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
+                                    .setTitle("Receipt Information")
+                                    .setItems(lstReceiptInfo, null)
+                                    .setPositiveButton(R.string.ok, null)
+                                    .show();
+                        }
 
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
-
 
                 } else {
                     statusMessage.setText(R.string.barcode_failure);

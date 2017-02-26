@@ -3,7 +3,10 @@ package com.wasiable.android.myreceipts;
 
 import android.content.Context;
 import android.os.Environment;
+import android.support.v7.app.AlertDialog;
+import android.util.Log;
 
+import com.google.android.gms.samples.vision.barcodereader.R;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
@@ -59,19 +62,21 @@ public class ReceiptFile  {
             String ReceiptFileName = GetReceiptFileName(receipt.getReceiptDate());
             if (isExternalStorageWritable()) {
                 File receiptFile = getExternalReceiptFile(context, ReceiptFileName);
-                InputStream inputStream = new FileInputStream(receiptFile);
-                if ( inputStream != null ) {
-                    InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
-                    BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-                    String receiveString = "";
-                    StringBuilder stringBuilder = new StringBuilder();
+                if (receiptFile.exists()) {
+                    InputStream inputStream = new FileInputStream(receiptFile);
+                    if (inputStream != null) {
+                        InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+                        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+                        String receiveString = "";
+                        StringBuilder stringBuilder = new StringBuilder();
 
-                    while ( (receiveString = bufferedReader.readLine()) != null ) {
-                        stringBuilder.append(receiveString);
+                        while ((receiveString = bufferedReader.readLine()) != null) {
+                            stringBuilder.append(receiveString);
+                        }
+
+                        inputStream.close();
+                        RetString = stringBuilder.toString();
                     }
-
-                    inputStream.close();
-                    RetString = stringBuilder.toString();
                 }
             }
 
@@ -95,5 +100,21 @@ public class ReceiptFile  {
         File file = new File(context.getExternalFilesDir(null), FileName);
 
         return file;
+    }
+
+    public boolean isReceiptDuplicated(Context context, Receipt receipt) throws Exception {
+        boolean isDuplicated = false;
+        try {
+            String ReceiptFileContent = ReadReceiptFile(context, receipt);
+            Log.i("Receipt File Content",ReceiptFileContent);
+            String ReceiptNo = receipt.getReceiptNo();
+            if (ReceiptFileContent.indexOf(ReceiptNo) > 0) {
+                isDuplicated = true;
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return  isDuplicated;
     }
 }

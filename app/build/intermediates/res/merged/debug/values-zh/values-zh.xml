@@ -18,6 +18,7 @@
     <string name="random_code">隨機碼</string>
     <string name="read_barcode">掃瞄 Barcode</string>
     <string name="receipt_date">發票開立日期</string>
+    <string name="receipt_duplicated">這張發票掃瞄過了哦!!</string>
     <string name="receipt_no">發票字軌</string>
     <string name="saler_data">賣方應用資訊</string>
     <string name="saler_ein">賣方統一編號</string>
