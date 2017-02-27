@@ -12,6 +12,7 @@
     <string name="item_name">品名</string>
     <string name="item_quantity">數量</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="msg_file_deleted">檔案己刪除</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">好</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
@@ -25,6 +26,7 @@
     <string name="sales_amount">銷售額</string>
     <string name="sales_amount_hex">銷售額(Hex)</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="title_del_receipt_file">刪除發票檔</string>
     <string name="total_amount">總計額</string>
     <string name="total_amount_hex">總計額(Hex)</string>
     <string name="total_item_count">品目總筆數</string>

@@ -14,10 +14,14 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
+import java.io.FilenameFilter;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by wasia on 2017/2/25.
@@ -25,6 +29,7 @@ import java.io.OutputStreamWriter;
 
 public class ReceiptFile  {
     private static final String RECEIPT_FILE_NAME_PREFIX = "receipt";
+    private static final String RECEIPT_SEPARATOR = "###";
 
     public static String GetReceiptFileName(String ReceiptDate) throws Exception {
         String ReceipFileName = "";
@@ -48,7 +53,7 @@ public class ReceiptFile  {
 
                 File receiptFile = getExternalReceiptFile(context, ReceiptFileName);
                 FileWriter fw = new FileWriter(receiptFile, true);
-                fw.write(jsonReceipt);
+                fw.write(jsonReceipt + RECEIPT_SEPARATOR);
                 fw.close();
             }
         } catch (Exception e) {
@@ -75,7 +80,9 @@ public class ReceiptFile  {
                         }
 
                         inputStream.close();
+                        List<String> lstReceipt = new ArrayList<String>(Arrays.asList(stringBuilder.toString().split(RECEIPT_SEPARATOR)));
                         RetString = stringBuilder.toString();
+
                     }
                 }
             }
@@ -116,5 +123,22 @@ public class ReceiptFile  {
             e.printStackTrace();
         }
         return  isDuplicated;
+    }
+
+    public static File[] GetReceiptFiles(Context context) {
+        // create new filename filter
+        FilenameFilter fileNameFilter = new FilenameFilter() {
+            @Override
+            public boolean accept(File dir, String name) {
+                if (name.startsWith(RECEIPT_FILE_NAME_PREFIX)) {
+                    return true;
+                }
+                return false;
+            }
+        };
+
+        File ReceiptFileDir = new File(String.valueOf(context.getExternalFilesDir(null)));
+        File[] ReceiptFiles = ReceiptFileDir.listFiles(fileNameFilter);
+        return ReceiptFiles;
     }
 }

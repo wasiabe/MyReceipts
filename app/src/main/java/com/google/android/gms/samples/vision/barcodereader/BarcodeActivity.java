@@ -140,7 +140,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                             Log.i("isReceiptDuplicated","YES");
                             TextView tvBarcodeValue = (TextView)findViewById(R.id.barcode_value);
                             tvBarcodeValue.setText(getString(R.string.receipt_duplicated));
-                            Toast.makeText(this, getString(R.string.receipt_duplicated),  Toast.LENGTH_LONG);
+                            Toast.makeText(this, getString(R.string.receipt_duplicated),  Toast.LENGTH_LONG).show();
                         } else {
                             receiptFile.WriteReceiptToFile(this, receipt);
                             AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)

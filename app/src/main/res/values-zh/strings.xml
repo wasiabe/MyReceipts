@@ -30,4 +30,6 @@
     <string name="item_count">品目筆數</string>
     <string name="chinese_encode">中文編碼</string>
     <string name="receipt_duplicated">這張發票掃瞄過了哦!!</string>
+    <string name="title_del_receipt_file">刪除發票檔</string>
+    <string name="msg_file_deleted">檔案己刪除</string>
 </resources>
