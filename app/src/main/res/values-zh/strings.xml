@@ -32,4 +32,6 @@
     <string name="receipt_duplicated">這張發票掃瞄過了哦!!</string>
     <string name="title_del_receipt_file">刪除發票檔</string>
     <string name="msg_file_deleted">檔案己刪除</string>
+    <string name="button_scan_receipt">掃瞄發票</string>
+    <string name="button_delete_receipt_file">刪除發票檔</string>
 </resources>

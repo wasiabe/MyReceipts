@@ -5,6 +5,8 @@
     <string name="barcode_failure">未讀掃瞄到 Barcode</string>
     <string name="barcode_header">Click "Read Barcode" to read a barcode</string>
     <string name="barcode_success">Barcode 掃瞄成功</string>
+    <string name="button_delete_receipt_file">刪除發票檔</string>
+    <string name="button_scan_receipt">掃瞄發票</string>
     <string name="buyer_ein">買方統一編號</string>
     <string name="chinese_encode">中文編碼</string>
     <string name="encrypt_code">加密驗證資訊</string>

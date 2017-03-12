@@ -32,4 +32,10 @@
     <string name="receipt_duplicated">Receipt has already been scanned before !!</string>
     <string name="title_del_receipt_file">Delete Receipt File</string>
     <string name="msg_file_deleted">File deleted !!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_scan_receipt">Scan Receipt</string>
+    <string name="button_delete_receipt_file">Delete Receipt File</string>
 </resources>

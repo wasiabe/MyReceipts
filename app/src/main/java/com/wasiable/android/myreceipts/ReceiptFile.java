@@ -29,7 +29,7 @@ import java.util.List;
 
 public class ReceiptFile  {
     private static final String RECEIPT_FILE_NAME_PREFIX = "receipt";
-    private static final String RECEIPT_SEPARATOR = "###";
+    private static final String RECEIPT_SEPARATOR = ",";
 
     public static String GetReceiptFileName(String ReceiptDate) throws Exception {
         String ReceipFileName = "";

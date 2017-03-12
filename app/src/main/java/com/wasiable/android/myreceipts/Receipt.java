@@ -3,8 +3,6 @@ package com.wasiable.android.myreceipts;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.google.android.gms.common.internal.safeparcel.AbstractSafeParcelable;
-
 import java.util.ArrayList;
 
 /**

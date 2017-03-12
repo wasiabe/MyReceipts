@@ -1,7 +1,7 @@
-#Mon Feb 27 15:01:13 CST 2017
-base.0=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e395eb4f192338c188d048f46759c8afb825c31a\\classes.dex
-base.1=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e395eb4f192338c188d048f46759c8afb825c31a
-file.0=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860\\classes.dex
+#Sun Mar 12 23:31:11 CST 2017
+base.0=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e395eb4f192338c188d048f46759c8afb825c31a\\classes.dex
+base.1=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e395eb4f192338c188d048f46759c8afb825c31a
+file.0=C\:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860\\classes.dex
