@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.wasiable.android.myreceipts"
-        minSdkVersion 9
+        minSdkVersion 23
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -22,8 +22,14 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     // Important - the CameraSource implementation in this project requires version 8.1 or higher.
-    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
     compile 'com.google.android.gms:play-services-vision:10.2.0'
+    compile 'com.google.firebase:firebase-database:10.2.0'
     compile 'com.android.support:design:25.2.0'
     compile 'com.google.code.gson:gson:2.7'
+
 }
+
+
+apply plugin: 'com.google.gms.google-services'

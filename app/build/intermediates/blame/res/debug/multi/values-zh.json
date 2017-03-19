@@ -11,7 +11,14 @@
                     "endOffset": 94
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 150,
+                        "endColumn": 43,
+                        "endOffset": 189
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 159
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 195,
+                        "endColumn": 64,
+                        "endOffset": 255
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 217
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 261,
+                        "endColumn": 57,
+                        "endOffset": 314
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 299
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 91,
+                        "endOffset": 144
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 356
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 320,
+                        "endColumn": 56,
+                        "endOffset": 372
+                    }
                 }
             },
             {
@@ -109,7 +144,14 @@
                     "endOffset": 515
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 962,
+                        "endColumn": 44,
+                        "endOffset": 1002
+                    }
                 }
             },
             {
@@ -121,7 +163,14 @@
                     "endOffset": 563
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1719,
+                        "endColumn": 47,
+                        "endOffset": 1762
+                    }
                 }
             },
             {
@@ -133,7 +182,14 @@
                     "endOffset": 611
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1008,
+                        "endColumn": 47,
+                        "endOffset": 1051
+                    }
                 }
             },
             {
@@ -145,7 +201,14 @@
                     "endOffset": 655
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1674,
+                        "endColumn": 43,
+                        "endOffset": 1713
+                    }
                 }
             },
             {
@@ -157,7 +220,14 @@
                     "endOffset": 696
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1487,
+                        "endColumn": 40,
+                        "endOffset": 1523
+                    }
                 }
             },
             {
@@ -169,7 +239,14 @@
                     "endOffset": 741
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1529,
+                        "endColumn": 44,
+                        "endOffset": 1569
+                    }
                 }
             },
             {
@@ -181,7 +258,14 @@
                     "endOffset": 861
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 378,
+                        "endColumn": 119,
+                        "endOffset": 493
+                    }
                 }
             },
             {
@@ -193,7 +277,14 @@
                     "endOffset": 912
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1886,
+                        "endColumn": 50,
+                        "endOffset": 1932
+                    }
                 }
             },
             {
@@ -205,7 +296,14 @@
                     "endOffset": 1069
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 156,
+                        "endOffset": 651
+                    }
                 }
             },
             {
@@ -217,7 +315,14 @@
                     "endOffset": 1102
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 657,
+                        "endColumn": 32,
+                        "endOffset": 685
+                    }
                 }
             },
             {
@@ -229,7 +334,14 @@
                     "endOffset": 1203
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 100,
+                        "endOffset": 787
+                    }
                 }
             },
             {
@@ -241,7 +353,14 @@
                     "endOffset": 1247
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1057,
+                        "endColumn": 43,
+                        "endOffset": 1096
+                    }
                 }
             },
             {
@@ -253,7 +372,14 @@
                     "endOffset": 1299
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 793,
+                        "endColumn": 51,
+                        "endOffset": 840
+                    }
                 }
             },
             {
@@ -265,7 +391,14 @@
                     "endOffset": 1347
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1147,
+                        "endColumn": 47,
+                        "endOffset": 1190
+                    }
                 }
             },
             {
@@ -277,7 +410,14 @@
                     "endOffset": 1406
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1768,
+                        "endColumn": 58,
+                        "endOffset": 1822
+                    }
                 }
             },
             {
@@ -289,7 +429,14 @@
                     "endOffset": 1450
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1102,
+                        "endColumn": 43,
+                        "endOffset": 1141
+                    }
                 }
             },
             {
@@ -301,7 +448,14 @@
                     "endOffset": 1496
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1627,
+                        "endColumn": 45,
+                        "endOffset": 1668
+                    }
                 }
             },
             {
@@ -313,7 +467,14 @@
                     "endOffset": 1541
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1196,
+                        "endColumn": 44,
+                        "endOffset": 1236
+                    }
                 }
             },
             {
@@ -325,7 +486,14 @@
                     "endOffset": 1586
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1352,
+                        "endColumn": 44,
+                        "endOffset": 1392
+                    }
                 }
             },
             {
@@ -337,7 +505,14 @@
                     "endOffset": 1640
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1242,
+                        "endColumn": 53,
+                        "endOffset": 1291
+                    }
                 }
             },
             {
@@ -349,7 +524,14 @@
                     "endOffset": 1710
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 846,
+                        "endColumn": 69,
+                        "endOffset": 911
+                    }
                 }
             },
             {
@@ -361,7 +543,14 @@
                     "endOffset": 1767
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1828,
+                        "endColumn": 56,
+                        "endOffset": 1880
+                    }
                 }
             },
             {
@@ -373,7 +562,14 @@
                     "endOffset": 1812
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1398,
+                        "endColumn": 44,
+                        "endOffset": 1438
+                    }
                 }
             },
             {
@@ -385,7 +581,14 @@
                     "endOffset": 1866
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1297,
+                        "endColumn": 53,
+                        "endOffset": 1346
+                    }
                 }
             },
             {
@@ -397,7 +600,14 @@
                     "endOffset": 1917
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1575,
+                        "endColumn": 50,
+                        "endOffset": 1621
+                    }
                 }
             },
             {
@@ -409,7 +619,14 @@
                     "endOffset": 1959
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1444,
+                        "endColumn": 41,
+                        "endOffset": 1481
+                    }
                 }
             },
             {
@@ -421,7 +638,14 @@
                     "endOffset": 2003
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 917,
+                        "endColumn": 43,
+                        "endOffset": 956
+                    }
                 }
             }
         ]

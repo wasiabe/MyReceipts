@@ -38,7 +38,7 @@
         <activity
             android:name=".BarcodeCaptureActivity"
             android:label="Read Barcode" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.wasiable.android.myreceipts.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

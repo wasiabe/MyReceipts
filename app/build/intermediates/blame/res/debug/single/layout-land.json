@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_barcode.xml",
-        "source": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\layout-land\\activity_barcode.xml"
-    },
-    {
         "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\barcode_capture.xml",
         "source": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\layout-land\\barcode_capture.xml"
     }
