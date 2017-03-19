@@ -15,6 +15,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 /**
@@ -44,6 +48,21 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
             Log.d("RecyclerView", "CLICK!");
             Log.d("ItemClicked:", "Selected:"+ mDataset.get(position));
 
+            final ReceiptFile receiptFile = new ReceiptFile();
+            String PrizeNumberPeriod = mDataset.get(position);
+            String PeriodYear = PrizeNumberPeriod.substring(0,3);
+            String PeriodMonth1 = PrizeNumberPeriod.substring(3,5);
+            String PeriodMonth2 = PrizeNumberPeriod.substring(5,7);
+            String ReceiptFileName1 = "";
+            String ReceiptFileName2 = "";
+            try {
+                ReceiptFileName1 = ReceiptFile.GetReceiptFileName(PeriodYear + PeriodMonth1 + "01");
+                ReceiptFileName2 = ReceiptFile.GetReceiptFileName(PeriodYear + PeriodMonth2 + "01");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            final String[] ReceiptFileNameList = {ReceiptFileName1, ReceiptFileName2};
+
             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("prizenumbers");
             ref.orderByChild("period").equalTo(mDataset.get(position));
 
@@ -51,19 +70,39 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     String period;
+                    Integer totalPrize = 0;
                     for (DataSnapshot ds : dataSnapshot.getChildren() ){
                         for(DataSnapshot rules : ds.child("rules").getChildren()) {
                             PrizeNumber pn = new PrizeNumber();
                             pn.number = rules.child("number").getValue().toString();
                             pn.matchs = (ArrayList<Integer>) rules.child("matchs").getValue();
                             pn.prizes = (ArrayList<Integer>) rules.child("prizes").getValue();
-                            String ReceiptNumber = "SR12340000";
-                            int Prize = pn.CheckPrizeNumber(ReceiptNumber);
-                            if (Prize > 0) {
-                                Toast.makeText(v.getContext(), "Prize is " + Prize, Toast.LENGTH_LONG).show();
+
+                            for(int i=0; i<=ReceiptFileNameList.length-1; i++) {
+                                String ReceiptFileName = ReceiptFileNameList[i];
+                                String ReceiptFileContent = receiptFile.ReadReceiptFileToString(view.getContext(), ReceiptFileName);
+                                if (!ReceiptFileContent.isEmpty()){
+                                    String jsonText = "{\"receipts\":[" + ReceiptFileContent.substring(0, ReceiptFileContent.length()-1) + "]}";
+                                    try {
+                                        JSONObject json = new JSONObject(jsonText);
+                                        JSONArray arr = json.getJSONArray("receipts");
+                                        for(int j=0; j<=arr.length()-1; j++) {
+                                            String ReceiptNumber = arr.getJSONObject(j).getString("ReceiptNo");
+                                            Log.d("ReceiptNumber", ReceiptNumber);
+
+                                            int Prize = pn.CheckPrizeNumber(ReceiptNumber);
+                                            if (Prize > 0) {
+                                                totalPrize += Prize;
+                                            }
+                                        }
+                                    } catch (JSONException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
                             }
                         }
                     }
+                    Toast.makeText(v.getContext(), "Total Prize is " + totalPrize, Toast.LENGTH_LONG).show();
                 }
 
                 @Override

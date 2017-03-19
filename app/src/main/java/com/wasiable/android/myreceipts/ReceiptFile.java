@@ -65,6 +65,16 @@ public class ReceiptFile  {
         String RetString = "";
         try {
             String ReceiptFileName = GetReceiptFileName(receipt.getReceiptDate());
+            RetString = ReadReceiptFileToString(context, ReceiptFileName);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return  RetString;
+    }
+
+    public String ReadReceiptFileToString(Context context, String ReceiptFileName) {
+        String RetString = "";
+        try {
             if (isExternalStorageWritable()) {
                 File receiptFile = getExternalReceiptFile(context, ReceiptFileName);
                 if (receiptFile.exists()) {
@@ -90,7 +100,7 @@ public class ReceiptFile  {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return  RetString;
+        return RetString;
     }
 
     /* Checks if external storage is available for read and write */
