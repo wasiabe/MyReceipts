@@ -38,4 +38,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="button_scan_receipt">Scan Receipt</string>
     <string name="button_delete_receipt_file">Delete Receipt File</string>
+    <string name="action_del_receipt_file">Delete Receipt File</string>
+
+    <string-array name="sum_by_array">
+        <item>By Saler</item>
+        <item>By Item</item>
+    </string-array>
+    <string name="quick_sum_period">Period</string>
+    <string name="quick_sum_sumby">Subtotal By</string>
+    <string name="barcode_left_null">Left barcode is missing, please scan again !!</string>
+    <string name="quick_sum_total_amount">Totoal Amount:</string>
 </resources>

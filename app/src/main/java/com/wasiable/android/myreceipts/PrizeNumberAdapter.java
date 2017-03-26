@@ -82,7 +82,8 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
                                 String ReceiptFileName = ReceiptFileNameList[i];
                                 String ReceiptFileContent = receiptFile.ReadReceiptFileToString(view.getContext(), ReceiptFileName);
                                 if (!ReceiptFileContent.isEmpty()){
-                                    String jsonText = "{\"receipts\":[" + ReceiptFileContent.substring(0, ReceiptFileContent.length()-1) + "]}";
+                                    String jsonText = ReceiptFile.GetReceiptJSONString(ReceiptFileContent);
+                                    //String jsonText = "{\"receipts\":[" + ReceiptFileContent.substring(0, ReceiptFileContent.length()-1) + "]}";
                                     try {
                                         JSONObject json = new JSONObject(jsonText);
                                         JSONArray arr = json.getJSONArray("receipts");

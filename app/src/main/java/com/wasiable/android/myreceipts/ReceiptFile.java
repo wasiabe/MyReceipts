@@ -9,6 +9,10 @@ import android.util.Log;
 import com.google.android.gms.samples.vision.barcodereader.R;
 import com.google.gson.Gson;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -40,6 +44,23 @@ public class ReceiptFile  {
             throw new Exception("Receipt date value is not correct");
         }
         return ReceipFileName;
+    }
+
+    public static String GetReceiptJSONString(String ReceiptFileContent) {
+        String jsonText = "{\"receipts\":[" + ReceiptFileContent.substring(0, ReceiptFileContent.length()-1) + "]}";
+        return jsonText;
+    }
+
+    public static JSONArray GetReceiptsJSONArray (String ReceiptFileContent) throws JSONException {
+        JSONArray arr = new JSONArray();
+        try {
+            String jsonText = GetReceiptJSONString(ReceiptFileContent);
+            JSONObject json = new JSONObject(jsonText);
+            arr = json.getJSONArray("receipts");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return arr;
     }
 
     public void WriteReceiptToFile(Context context, Receipt receipt) throws Exception {

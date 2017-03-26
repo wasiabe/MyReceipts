@@ -34,4 +34,14 @@
     <string name="msg_file_deleted">檔案己刪除</string>
     <string name="button_scan_receipt">掃瞄發票</string>
     <string name="button_delete_receipt_file">刪除發票檔</string>
+    <string name="action_del_receipt_file">刪除發票檔</string>
+
+    <string-array name="sum_by_array">
+        <item>依店家</item>
+        <item>依商品</item>
+    </string-array>
+    <string name="quick_sum_sumby">小計</string>
+    <string name="quick_sum_period">期間</string>
+    <string name="barcode_left_null">左下方的條碼沒掃到哦, 請再掃瞄一次</string>
+    <string name="quick_sum_total_amount">當期總消費金額:</string>
 </resources>

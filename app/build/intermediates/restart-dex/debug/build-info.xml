@@ -1,45 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86,armeabi-v7a,armeabi"
-    api-level="24"
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
     build-mode="COLD"
-    density="xhdpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489931672959"
+    timestamp="1490518204944"
     token="-112667981828121611"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="525" />
+        duration="2535" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="182" />
     <task
         name="verifier"
-        duration="9" />
+        duration="33" />
 
     <artifact
         location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1489929139959"
+        timestamp="1490514309222"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
@@ -70,11 +79,28 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489931672959"
+        timestamp="1490516687478"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1490518204944"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

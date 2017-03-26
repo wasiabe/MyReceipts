@@ -81,9 +81,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
             intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
 
             startActivityForResult(intent, RC_BARCODE_CAPTURE);
-
         }
-
     }
 
     /**
@@ -117,10 +115,18 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 if (data != null) {
                     statusMessage.setText(R.string.barcode_success);
+                    TextView tvBarcodeValue = (TextView)findViewById(R.id.barcode_value);
+                    tvBarcodeValue.setText("");
 
                     receipt = new Receipt();
 
                     Barcode barcodeLeft = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObjectLeft);
+                    if (barcodeLeft==null) {
+                        tvBarcodeValue.setText(R.string.barcode_left_null);
+                        Toast.makeText(this, R.string.barcode_left_null, Toast.LENGTH_LONG);
+                        return;
+                    }
+
                     if (barcodeLeft!=null) {
                         lstLeft = parseBarcodeValueLeft(barcodeLeft.displayValue);
                         Log.d(TAG, "Left Barcode read: " + barcodeLeft.displayValue);
@@ -138,7 +144,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                     try {
                         if (receiptFile.isReceiptDuplicated(this, receipt) ) {
                             Log.i("isReceiptDuplicated","YES");
-                            TextView tvBarcodeValue = (TextView)findViewById(R.id.barcode_value);
+
                             tvBarcodeValue.setText(getString(R.string.receipt_duplicated));
                             Toast.makeText(this, getString(R.string.receipt_duplicated),  Toast.LENGTH_LONG).show();
                         } else {
