@@ -2765,7 +2765,7 @@ containing a value of this type.
         public static final int action_bar_title=0x7f0d0048;
         public static final int action_container=0x7f0d0099;
         public static final int action_context_bar=0x7f0d006c;
-        public static final int action_del_receipt_file=0x7f0d00b4;
+        public static final int action_del_receipt_file=0x7f0d00b5;
         public static final int action_divider=0x7f0d00a0;
         public static final int action_image=0x7f0d009a;
         public static final int action_menu_divider=0x7f0d0002;
@@ -2840,7 +2840,7 @@ containing a value of this type.
         public static final int line3=0x7f0d00ad;
         public static final int listMode=0x7f0d000f;
         public static final int list_item=0x7f0d004f;
-        public static final int masked=0x7f0d00b3;
+        public static final int masked=0x7f0d00b4;
         public static final int media_actions=0x7f0d009f;
         public static final int middle=0x7f0d0039;
         public static final int mini=0x7f0d0037;
@@ -2862,6 +2862,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0d0006;
         public static final int progress_horizontal=0x7f0d0007;
         public static final int quick_sum_rv_item=0x7f0d00b1;
+        public static final int quick_sum_rv_item_amount=0x7f0d00b2;
         public static final int quick_summary=0x7f0d0096;
         public static final int radio=0x7f0d0064;
         public static final int read_barcode=0x7f0d007c;
@@ -2932,7 +2933,7 @@ containing a value of this type.
         public static final int useLogo=0x7f0d0018;
         public static final int use_flash=0x7f0d007e;
         public static final int view_offset_helper=0x7f0d000e;
-        public static final int visible=0x7f0d00b2;
+        public static final int visible=0x7f0d00b3;
         public static final int wide=0x7f0d0043;
         public static final int withText=0x7f0d0040;
         public static final int wrap_content=0x7f0d0024;

@@ -210,12 +210,12 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                     }
                     break;
                 case 1:
-                    itemQuantity = Receipt.getItemQuantityKey() + ":" + lstItemInfo[i];
-                    itemQuantityDisp = getString(R.string.item_quantity) + ":" + lstItemInfo[i];;
+                    itemQuantity = Receipt.getItemQuantityKey() + ":" + lstItemInfo[i].replaceAll("\\D+","");
+                    itemQuantityDisp = getString(R.string.item_quantity) + ":" + lstItemInfo[i].replaceAll("\\D+","");
                     break;
                 case 2:
-                    unitPrice = Receipt.getUnitPriceKey() + ":" + lstItemInfo[i];
-                    unitPriceDisp = getString(R.string.unit_price) + ":" + lstItemInfo[i];
+                    unitPrice = Receipt.getUnitPriceKey() + ":" + lstItemInfo[i].replaceAll("\\D+","");
+                    unitPriceDisp = getString(R.string.unit_price) + ":" + lstItemInfo[i].replaceAll("\\D+","");
                     lstItemJSON.add("{"+itemName+","+itemQuantity+","+unitPrice+"}");
                     break;
             }
