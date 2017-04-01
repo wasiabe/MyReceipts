@@ -664,6 +664,7 @@
     <string name="item_quantity">Item Quantity</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
     <string name="msg_file_deleted">File deleted !!</string>
+    <string name="msg_no_prize">No Prize</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">OK</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
@@ -672,6 +673,8 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="prize_check_result">\"Prize : %1$d\"</string>
+    <string name="prize_number_not_exist">Prize Number not published yet</string>
     <string name="quick_sum_period">Period</string>
     <string name="quick_sum_sumby">Subtotal By</string>
     <string name="quick_sum_total_amount">Totoal Amount:</string>
@@ -688,6 +691,8 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="title_del_receipt_file">Delete Receipt File</string>
+    <string name="title_total_amount">Total Amount</string>
+    <string name="title_total_receipts">Total Receipts</string>
     <string name="total_amount">Total Amount</string>
     <string name="total_amount_hex">Total Amount (Hex)</string>
     <string name="total_item_count">Total Items</string>

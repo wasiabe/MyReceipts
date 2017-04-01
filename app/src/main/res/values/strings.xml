@@ -48,4 +48,9 @@
     <string name="quick_sum_sumby">Subtotal By</string>
     <string name="barcode_left_null">Left barcode is missing, please scan again !!</string>
     <string name="quick_sum_total_amount">Totoal Amount:</string>
+    <string name="prize_number_not_exist">Prize Number not published yet</string>
+    <string name="prize_check_result">\"Prize : %1$d\"</string>
+    <string name="msg_no_prize">No Prize</string>
+    <string name="title_total_receipts">Total Receipts</string>
+    <string name="title_total_amount">Total Amount</string>
 </resources>

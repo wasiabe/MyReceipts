@@ -44,4 +44,9 @@
     <string name="quick_sum_period">期間</string>
     <string name="barcode_left_null">左下方的條碼沒掃到哦, 請再掃瞄一次</string>
     <string name="quick_sum_total_amount">當期總消費金額:</string>
+    <string name="prize_number_not_exist">木期尚未開獎</string>
+    <string name="prize_check_result">\"恭喜中獎: %1$d\"</string>
+    <string name="msg_no_prize">未中獎...</string>
+    <string name="title_total_receipts">發票張數</string>
+    <string name="title_total_amount">發票總金額</string>
 </resources>

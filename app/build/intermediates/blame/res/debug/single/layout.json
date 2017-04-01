@@ -24,12 +24,12 @@
         "source": "C:\\Users\\wasia\\.android\\build-cache\\b2d296d0ddfe7cc0c374b0e05683a656255e402c\\output\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\wasia\\.android\\build-cache\\1fb10298bc3225103d3296edc5fee5f50715d5f8\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\wasia\\.android\\build-cache\\1fb10298bc3225103d3296edc5fee5f50715d5f8\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\wasia\\.android\\build-cache\\1fb10298bc3225103d3296edc5fee5f50715d5f8\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",

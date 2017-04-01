@@ -226,6 +226,35 @@ public class Receipt implements Parcelable {
         return ItemCount;
     }
 
+    public String getPeriod() {
+        String Period = "";
+        String PeriodMonth="";
+        String PeriodYear = ReceiptDate.substring(0,3);
+        String ReceiptMonth = ReceiptDate.substring(3,5);
+        switch (ReceiptMonth) {
+            case "01": case "02":
+                PeriodMonth = "0102";
+                break;
+            case "03": case "04":
+                PeriodMonth = "0304";
+                break;
+            case "05": case "06":
+                PeriodMonth = "0506";
+                break;
+            case "07": case "08":
+                PeriodMonth = "0708";
+                break;
+            case "09": case "10":
+                PeriodMonth = "0910";
+                break;
+            case "11": case "12":
+                PeriodMonth = "1112";
+                break;
+        }
+        Period = PeriodYear + PeriodMonth;
+        return  Period;
+    }
+
     public void setItemCount(int itemCount) {
         ItemCount = itemCount;
     }

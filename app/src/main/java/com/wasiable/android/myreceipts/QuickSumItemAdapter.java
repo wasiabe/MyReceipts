@@ -24,13 +24,15 @@ public class QuickSumItemAdapter extends RecyclerView.Adapter<QuickSumItemAdapte
     }
 
     public class QuickSumItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        public TextView qs_rv_item;
-        public TextView qs_rv_item_amount;
+        public TextView tvPeriod;
+        public TextView tvTotalAmount;
+        public TextView tvTotalReceipts;
 
         public QuickSumItemHolder(View itemView) {
             super(itemView);
-            qs_rv_item = (TextView)itemView.findViewById(R.id.quick_sum_rv_item);
-            qs_rv_item_amount = (TextView)itemView.findViewById(R.id.quick_sum_rv_item_amount);
+            tvPeriod = (TextView)itemView.findViewById(R.id.quick_sum_period);
+            tvTotalAmount = (TextView)itemView.findViewById(R.id.quick_sum_total_amount);
+            tvTotalReceipts = (TextView)itemView.findViewById(R.id.quick_sum_total_receipts);
             itemView.setOnClickListener(this);
         }
 
@@ -53,10 +55,12 @@ public class QuickSumItemAdapter extends RecyclerView.Adapter<QuickSumItemAdapte
         try {
             String JSONString = (String)mDataset.get(position);
             JSONObject json = new JSONObject(JSONString);
-            String item = json.getString("item");
-            Integer amount = json.getInt("amount");
-            holder.qs_rv_item.setText(item);
-            holder.qs_rv_item_amount.setText(amount.toString());
+            String period = json.getString("period");
+            Integer total_amount = json.getInt("total_amount");
+            Integer total_receipts = json.getInt("total_receipts");
+            holder.tvPeriod.setText(period);
+            holder.tvTotalAmount.setText(total_amount.toString());
+            holder.tvTotalReceipts.setText(total_receipts.toString());
         } catch (JSONException e) {
             e.printStackTrace();
         }

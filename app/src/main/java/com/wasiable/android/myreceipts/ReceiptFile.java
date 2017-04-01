@@ -3,10 +3,8 @@ package com.wasiable.android.myreceipts;
 
 import android.content.Context;
 import android.os.Environment;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
 
-import com.google.android.gms.samples.vision.barcodereader.R;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -16,16 +14,15 @@ import org.json.JSONObject;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.FilenameFilter;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by wasia on 2017/2/25.
@@ -34,6 +31,10 @@ import java.util.List;
 public class ReceiptFile  {
     private static final String RECEIPT_FILE_NAME_PREFIX = "receipt";
     private static final String RECEIPT_SEPARATOR = ",";
+    public Integer MonthlySum = 0;
+    public Integer TotalReceipts = 0;
+    private Map<String, Integer> mapSaler = new HashMap<String, Integer>();
+    private Map<String, Integer> mapItem = new HashMap<String, Integer>();
 
     public static String GetReceiptFileName(String ReceiptDate) throws Exception {
         String ReceipFileName = "";
@@ -61,6 +62,56 @@ public class ReceiptFile  {
             e.printStackTrace();
         }
         return arr;
+    }
+
+    public void  AccumReceiptSummary (Context context, String ReceiptFileName) throws JSONException {
+        String ReceiptFileContent = ReadReceiptFileToString(context, ReceiptFileName);
+        try {
+            JSONArray arr = GetReceiptsJSONArray(ReceiptFileContent);
+            TotalReceipts = arr.length();
+
+            Map<String, Integer> map = new HashMap<String, Integer>();
+            for(int j=0; j<=arr.length()-1; j++) {
+                Integer TotalAmount = arr.getJSONObject(j).getInt("TotalAmount");
+                MonthlySum += TotalAmount;
+
+                // Accumulate by Saler
+                String SalerEIN = arr.getJSONObject(j).getString("SalerEIN");
+                if (mapSaler.containsKey(SalerEIN)) {
+                    Integer subtotalBySaler = mapSaler.get(SalerEIN);
+                    mapSaler.put(SalerEIN, subtotalBySaler + TotalAmount);
+                } else {
+                    mapSaler.put(SalerEIN, TotalAmount);
+                }
+
+                // Accumulate by Item
+                JSONArray ItemContent = arr.getJSONObject(j).getJSONArray("ItemContent");
+                for(int k=0;k<ItemContent.length();k++) {
+                    String jsonItem =  ItemContent.get(k).toString();
+
+                    if (isJSONValid(jsonItem)) {
+                        JSONObject item = new JSONObject(jsonItem);
+                        if (!item.isNull("item_name") && !item.isNull("item_quantity") && !item.isNull("unit_price")) {
+                            String ItemName = item.getString("item_name");
+                            Integer ItemQuantity = item.getInt("item_quantity");
+                            Integer UnitPrice = item.getInt("unit_price");
+
+                            Integer ItemAmount = 0;
+                            ItemAmount = ItemQuantity * UnitPrice;
+
+                            if (mapItem.containsKey(ItemName)) {
+                                Integer subtotalByItem = mapItem.get(ItemName);
+                                mapItem.put(ItemName, subtotalByItem + ItemAmount);
+                            } else {
+                                mapItem.put(ItemName, ItemAmount);
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void WriteReceiptToFile(Context context, Receipt receipt) throws Exception {
@@ -171,5 +222,20 @@ public class ReceiptFile  {
         File ReceiptFileDir = new File(String.valueOf(context.getExternalFilesDir(null)));
         File[] ReceiptFiles = ReceiptFileDir.listFiles(fileNameFilter);
         return ReceiptFiles;
+    }
+
+    private boolean isJSONValid(String test) {
+        try {
+            new JSONObject(test);
+        } catch (JSONException ex) {
+            // edited, to include @Arthur's comment
+            // e.g. in case JSONArray is valid as well...
+            try {
+                new JSONArray(test);
+            } catch (JSONException ex1) {
+                return false;
+            }
+        }
+        return true;
     }
 }

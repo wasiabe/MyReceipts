@@ -31,6 +31,11 @@ import com.google.android.gms.vision.barcode.Barcode;
 
 import java.util.ArrayList;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.wasiable.android.myreceipts.*;
 
 
@@ -46,6 +51,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
     private CompoundButton useFlash;
     private TextView statusMessage;
     private TextView barcodeValue;
+    private String ReceiptNo = "";
 
     private static final int RC_BARCODE_CAPTURE = 9001;
     private static final String TAG = "BarcodeMain";
@@ -110,6 +116,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         ArrayList<String> lstLeft = new ArrayList<>();
         ArrayList<String> lstRight = new ArrayList<>();
+        ReceiptNo = "";
 
         if (requestCode == RC_BARCODE_CAPTURE) {
             if (resultCode == CommonStatusCodes.SUCCESS) {
@@ -149,11 +156,52 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                             Toast.makeText(this, getString(R.string.receipt_duplicated),  Toast.LENGTH_LONG).show();
                         } else {
                             receiptFile.WriteReceiptToFile(this, receipt);
+
+                            ReceiptNo = receipt.getReceiptNo();
+                            tvBarcodeValue.setText(ReceiptNo);
+
+                            DatabaseReference ref = FirebaseDatabase.getInstance().getReference("prizenumbers");
+                            ref.orderByChild("period").equalTo(receipt.getPeriod());
+                            ref.addValueEventListener(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(DataSnapshot dataSnapshot) {
+                                    TextView tvBarcodeValue  = (TextView) findViewById(R.id.barcode_value);
+                                    String orgValue = (String) tvBarcodeValue.getText();
+
+                                    if (!dataSnapshot.exists()) {
+                                        statusMessage.setText(R.string.prize_number_not_exist);
+                                    }
+                                    for (DataSnapshot ds : dataSnapshot.getChildren() ) {
+                                        for (DataSnapshot rules : ds.child("rules").getChildren()) {
+                                            PrizeNumber pn = new PrizeNumber();
+                                            pn.number = rules.child("number").getValue().toString();
+                                            pn.matchs = (ArrayList<Integer>) rules.child("matchs").getValue();
+                                            pn.prizes = (ArrayList<Integer>) rules.child("prizes").getValue();
+                                            int Prize = pn.CheckPrizeNumber(ReceiptNo);
+                                            if (Prize > 0) {
+                                                tvBarcodeValue.setText(orgValue + String.format( getString(R.string.prize_check_result),Prize));
+                                                Toast.makeText(BarcodeActivity.this, String.format( getString(R.string.prize_check_result),Prize), Toast.LENGTH_LONG);
+                                            } else {
+                                                tvBarcodeValue.setText(orgValue + getString(R.string.msg_no_prize));
+                                                Toast.makeText(BarcodeActivity.this, getString(R.string.msg_no_prize), Toast.LENGTH_LONG);
+                                            }
+
+                                        }
+                                    }
+                                }
+
+                                @Override
+                                public void onCancelled(DatabaseError databaseError) {
+
+                                }
+                            });
+/*
                             AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
                                     .setTitle("Receipt Information")
                                     .setItems(lstReceiptInfo, null)
                                     .setPositiveButton(R.string.ok, null)
                                     .show();
+                                    */
                         }
 
                     } catch (Exception e) {
