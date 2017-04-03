@@ -380,10 +380,15 @@ public final class BarcodeCaptureActivity extends AppCompatActivity {
 
     private boolean isLeftBarcode(Barcode barcode) {
         boolean result = false;
+        String UTF8_BOM = String.valueOf((char)65279);
         String barcodeValue = (String)barcode.displayValue.toString().trim();
+        if (barcodeValue.startsWith(UTF8_BOM)) {
+            barcodeValue = barcodeValue.replace(UTF8_BOM, "");
+            barcode.displayValue = barcodeValue;
+        }
         if (barcodeValue.length()>=77
                 && !android.text.TextUtils.isDigitsOnly(barcodeValue.substring(0,2))
-                && android.text.TextUtils.isDigitsOnly(barcodeValue.substring(2,10))) {
+                && android.text.TextUtils.isDigitsOnly(barcodeValue.trim().substring(2,10))) {
             result = true;
         }
         return result;

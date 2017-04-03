@@ -161,8 +161,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                             tvBarcodeValue.setText(ReceiptNo);
 
                             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("prizenumbers");
-                            ref.orderByChild("period").equalTo(receipt.getPeriod());
-                            ref.addValueEventListener(new ValueEventListener() {
+                            ref.orderByChild("period").equalTo(receipt.getPeriod()).addValueEventListener(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(DataSnapshot dataSnapshot) {
                                     TextView tvBarcodeValue  = (TextView) findViewById(R.id.barcode_value);
@@ -195,13 +194,13 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
 
                                 }
                             });
-/*
+
                             AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
                                     .setTitle("Receipt Information")
                                     .setItems(lstReceiptInfo, null)
                                     .setPositiveButton(R.string.ok, null)
                                     .show();
-                                    */
+
                         }
 
                     } catch (Exception e) {

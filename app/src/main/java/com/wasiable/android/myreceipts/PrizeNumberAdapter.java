@@ -13,6 +13,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import org.json.JSONArray;
@@ -64,9 +65,7 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
             final String[] ReceiptFileNameList = {ReceiptFileName1, ReceiptFileName2};
 
             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("prizenumbers");
-            ref.orderByChild("period").equalTo(mDataset.get(position));
-
-            ref.addValueEventListener(new ValueEventListener() {
+            ref.orderByChild("period").equalTo(mDataset.get(position)).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     String period;
