@@ -18,8 +18,9 @@ import java.util.ArrayList;
  */
 
 public class QuickSumItemAdapter extends RecyclerView.Adapter<QuickSumItemAdapter.QuickSumItemHolder>{
-    private ArrayList<String> mDataset ;
-    public QuickSumItemAdapter(ArrayList<String> myDataset)  {
+    private ArrayList<MonthlySummary> mDataset ;
+
+    public QuickSumItemAdapter(ArrayList<MonthlySummary> myDataset)  {
         mDataset = myDataset;
     }
 
@@ -53,15 +54,11 @@ public class QuickSumItemAdapter extends RecyclerView.Adapter<QuickSumItemAdapte
     @Override
     public void onBindViewHolder(QuickSumItemHolder holder, int position) {
         try {
-            String JSONString = (String)mDataset.get(position);
-            JSONObject json = new JSONObject(JSONString);
-            String period = json.getString("period");
-            Integer total_amount = json.getInt("total_amount");
-            Integer total_receipts = json.getInt("total_receipts");
-            holder.tvPeriod.setText(period);
-            holder.tvTotalAmount.setText(total_amount.toString());
-            holder.tvTotalReceipts.setText(total_receipts.toString());
-        } catch (JSONException e) {
+            MonthlySummary ms = (MonthlySummary)mDataset.get(position);
+            holder.tvPeriod.setText(ms.Period);
+            holder.tvTotalAmount.setText(ms.TotalAmount.toString());
+            holder.tvTotalReceipts.setText(ms.TotoaReceipts.toString());
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

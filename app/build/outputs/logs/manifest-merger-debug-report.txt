@@ -35,16 +35,17 @@ ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidM
 		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:11:22-77
 uses-sdk
 ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:12:5-17:39
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-vision:10.2.1] C:\Users\wasia\.android\build-cache\1105ce29e4ce9f363d0bf79abb9b0d04635916aa\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-database:10.2.1] C:\Users\wasia\.android\build-cache\7ee10899bc249799cf568c57745a910af61e99e4\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-database-connection:10.2.1] C:\Users\wasia\.android\build-cache\9283f2bf5734c5983352e2c78226d6e66b0b4282\output\AndroidManifest.xml:3:5-43
-MERGED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\ee50198058207ca7e2dba937cae0d2be25afb0ff\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\wasia\.android\build-cache\1fb10298bc3225103d3296edc5fee5f50715d5f8\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\e242b4cba0dad21cc8c2f9dd1e74dae0851a117f\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\71ecf6de1ba5004d1739459b4c0c73a8c1e71bb3\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\wasia\.android\build-cache\b6603669dd143d769d3daa04ab2f9661e9de33df\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\0825df18b26437ce36b6889c17d6d69e87e5100b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\b9e6b4ae60c14339413d4ed756d59df121482fea\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\wasia\.android\build-cache\daf5b830cb09bec3cc57d997f3d072085836ed17\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\d2b5a46626d81d520d43c9fe0e6e03f3633099a8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\8b40448cee03ac12fc5ebdba97141f52049bf5f8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\wasia\.android\build-cache\42d276b7d808c943fd8918e2e7500887e95484fd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\be1d368666e8386f5ffd5fe26c3c01a95d0a6e13\output\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\wasia\.android\build-cache\c07455d437cb5a999cb604777b16803386199809\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\wasia\.android\build-cache\dce2a0c4c2ad50e96a15836ac71469c63f2c0d98\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\wasia\.android\build-cache\0c02fbf2266f446a6b77277d86c084515b81c54a\output\AndroidManifest.xml:17:5-43
@@ -52,12 +53,12 @@ MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\wasia\.android\bu
 MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\wasia\.android\build-cache\dc995c7ff83c0bfa7fafc29639c76afc1c0bc8d3\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\wasia\.android\build-cache\3a55c5fe2ed0e9423699ece58587350fdec679cb\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\wasia\.android\build-cache\d078374a40280fb8b2060a8878d651e27e3d2c40\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\wasia\.android\build-cache\f2574832b21dbe9237de2ad2789a783222368eb5\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\wasia\.android\build-cache\269ec8d99fe24551f5fa502899df1fbb95872941\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\wasia\.android\build-cache\c0176a4b399477dab1c1b5eb3283f3919f8baaba\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android\build-cache\d15b52a8d946ff57aef53d2a56131bd2868e6f5c\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\cbbb208fd2a54710023a7cb9aac525de5589e621\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\f2a24dad162f449daf98a815a8400113bd607e48\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\wasia\.android\build-cache\3814f7145035e79e7554b48a9ee34a0008996a30\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\wasia\.android\build-cache\fa89c44dfa962b53bdbee0e1611b0309e4faf7ad\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\wasia\.android\build-cache\cdd284298638b14e1b82e7fdbcc181e6bc22f5ca\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android\build-cache\4b173b909a764c320dd5d5c0d814da4efbf907a9\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\e48308b4497062efe2154507082b11890fc22e5f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\153fb48a0d0f34ff2df7a6cd9119caceba4f37c1\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:12:5-17:39
 	android:targetSdkVersion
@@ -68,13 +69,14 @@ MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\
 		INJECTED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-vision:10.2.1] C:\Users\wasia\.android\build-cache\1105ce29e4ce9f363d0bf79abb9b0d04635916aa\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\ee50198058207ca7e2dba937cae0d2be25afb0ff\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\wasia\.android\build-cache\1fb10298bc3225103d3296edc5fee5f50715d5f8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\e242b4cba0dad21cc8c2f9dd1e74dae0851a117f\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\71ecf6de1ba5004d1739459b4c0c73a8c1e71bb3\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\0825df18b26437ce36b6889c17d6d69e87e5100b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\b9e6b4ae60c14339413d4ed756d59df121482fea\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\wasia\.android\build-cache\daf5b830cb09bec3cc57d997f3d072085836ed17\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\d2b5a46626d81d520d43c9fe0e6e03f3633099a8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\8b40448cee03ac12fc5ebdba97141f52049bf5f8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\be1d368666e8386f5ffd5fe26c3c01a95d0a6e13\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\wasia\.android\build-cache\c07455d437cb5a999cb604777b16803386199809\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\wasia\.android\build-cache\dce2a0c4c2ad50e96a15836ac71469c63f2c0d98\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\wasia\.android\build-cache\0c02fbf2266f446a6b77277d86c084515b81c54a\output\AndroidManifest.xml:24:5-28:19
@@ -82,12 +84,12 @@ MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\wasia\.android\bu
 MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\wasia\.android\build-cache\dc995c7ff83c0bfa7fafc29639c76afc1c0bc8d3\output\AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\wasia\.android\build-cache\3a55c5fe2ed0e9423699ece58587350fdec679cb\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\wasia\.android\build-cache\d078374a40280fb8b2060a8878d651e27e3d2c40\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\wasia\.android\build-cache\f2574832b21dbe9237de2ad2789a783222368eb5\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\wasia\.android\build-cache\269ec8d99fe24551f5fa502899df1fbb95872941\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\wasia\.android\build-cache\c0176a4b399477dab1c1b5eb3283f3919f8baaba\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android\build-cache\d15b52a8d946ff57aef53d2a56131bd2868e6f5c\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\cbbb208fd2a54710023a7cb9aac525de5589e621\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\f2a24dad162f449daf98a815a8400113bd607e48\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\wasia\.android\build-cache\3814f7145035e79e7554b48a9ee34a0008996a30\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\wasia\.android\build-cache\fa89c44dfa962b53bdbee0e1611b0309e4faf7ad\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\wasia\.android\build-cache\cdd284298638b14e1b82e7fdbcc181e6bc22f5ca\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android\build-cache\4b173b909a764c320dd5d5c0d814da4efbf907a9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\e48308b4497062efe2154507082b11890fc22e5f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\153fb48a0d0f34ff2df7a6cd9119caceba4f37c1\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:34:13-56
 	android:supportsRtl
@@ -141,6 +143,24 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:1-77
 	android:name
 		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:1-77
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\b9e6b4ae60c14339413d4ed756d59df121482fea\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\wasia\.android\build-cache\daf5b830cb09bec3cc57d997f3d072085836ed17\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\d2b5a46626d81d520d43c9fe0e6e03f3633099a8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\8b40448cee03ac12fc5ebdba97141f52049bf5f8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\wasia\.android\build-cache\42d276b7d808c943fd8918e2e7500887e95484fd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\be1d368666e8386f5ffd5fe26c3c01a95d0a6e13\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\wasia\.android\build-cache\3814f7145035e79e7554b48a9ee34a0008996a30\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\wasia\.android\build-cache\fa89c44dfa962b53bdbee0e1611b0309e4faf7ad\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\wasia\.android\build-cache\cdd284298638b14e1b82e7fdbcc181e6bc22f5ca\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android\build-cache\4b173b909a764c320dd5d5c0d814da4efbf907a9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\e48308b4497062efe2154507082b11890fc22e5f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\153fb48a0d0f34ff2df7a6cd9119caceba4f37c1\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:23:9-47
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\AndroidManifest.xml:19:9-172
 	android:exported
@@ -149,23 +169,6 @@ ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.an
 		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\AndroidManifest.xml:19:19-85
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\ee50198058207ca7e2dba937cae0d2be25afb0ff\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\wasia\.android\build-cache\1fb10298bc3225103d3296edc5fee5f50715d5f8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\e242b4cba0dad21cc8c2f9dd1e74dae0851a117f\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\71ecf6de1ba5004d1739459b4c0c73a8c1e71bb3\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\wasia\.android\build-cache\b6603669dd143d769d3daa04ab2f9661e9de33df\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\0825df18b26437ce36b6889c17d6d69e87e5100b\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\wasia\.android\build-cache\f2574832b21dbe9237de2ad2789a783222368eb5\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\wasia\.android\build-cache\269ec8d99fe24551f5fa502899df1fbb95872941\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\wasia\.android\build-cache\c0176a4b399477dab1c1b5eb3283f3919f8baaba\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android\build-cache\d15b52a8d946ff57aef53d2a56131bd2868e6f5c\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\cbbb208fd2a54710023a7cb9aac525de5589e621\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\f2a24dad162f449daf98a815a8400113bd607e48\output\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\ee50198058207ca7e2dba937cae0d2be25afb0ff\output\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\ee50198058207ca7e2dba937cae0d2be25afb0ff\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\wasia\.android\build-cache\dce2a0c4c2ad50e96a15836ac71469c63f2c0d98\output\AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\wasia\.android\build-cache\0c02fbf2266f446a6b77277d86c084515b81c54a\output\AndroidManifest.xml:20:5-66

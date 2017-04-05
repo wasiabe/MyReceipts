@@ -31,7 +31,8 @@ import java.util.Map;
 public class ReceiptFile  {
     private static final String RECEIPT_FILE_NAME_PREFIX = "receipt";
     private static final String RECEIPT_SEPARATOR = ",";
-    public Integer MonthlySum = 0;
+    public String Period = "";
+    public Integer TotalAmount = 0;
     public Integer TotalReceipts = 0;
     private Map<String, Integer> mapSaler = new HashMap<String, Integer>();
     private Map<String, Integer> mapItem = new HashMap<String, Integer>();
@@ -67,13 +68,15 @@ public class ReceiptFile  {
     public void  AccumReceiptSummary (Context context, String ReceiptFileName) throws JSONException {
         String ReceiptFileContent = ReadReceiptFileToString(context, ReceiptFileName);
         try {
+            Period = ReceiptFileName.replace(RECEIPT_FILE_NAME_PREFIX,"").substring(0,3) + "/" + ReceiptFileName.replace(RECEIPT_FILE_NAME_PREFIX,"").substring(3,5);
+
             JSONArray arr = GetReceiptsJSONArray(ReceiptFileContent);
             TotalReceipts = arr.length();
 
             Map<String, Integer> map = new HashMap<String, Integer>();
             for(int j=0; j<=arr.length()-1; j++) {
                 Integer TotalAmount = arr.getJSONObject(j).getInt("TotalAmount");
-                MonthlySum += TotalAmount;
+                this.TotalAmount += TotalAmount;
 
                 // Accumulate by Saler
                 String SalerEIN = arr.getJSONObject(j).getString("SalerEIN");
