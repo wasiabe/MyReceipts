@@ -125,7 +125,11 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
     @Override
     public void onBindViewHolder(PrizeNumberHolder holder, int position) {
         String period = (String)mDataset.get(position);
-        holder.period.setText(period);
+        String periodYear = period.substring(0,3);
+        String periodMonth1 = period.substring(3,5);
+        String periodMonth2 = period.substring(5,7);
+        String periodDisp = periodYear + "年" + periodMonth1 + "-" + periodMonth2 + "月";
+        holder.period.setText(periodDisp);
 
     }
 

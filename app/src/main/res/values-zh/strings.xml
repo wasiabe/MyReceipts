@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="barcode_header">請按下方 &quot;開始掃瞄&quot;</string>
     <string name="auto_focus">自動對焦</string>
     <string name="barcode_error">\"Barcode 掃瞄失敗: %1$s\"</string>
     <string name="barcode_failure">未讀掃瞄到 Barcode</string>
@@ -9,13 +9,13 @@
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">好</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
-    <string name="read_barcode">掃瞄 Barcode</string>
+    <string name="read_barcode">開始掃瞄</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="use_flash">使用閃光燈</string>
     <string name="buyer_ein">買方統一編號</string>
     <string name="encrypt_code">加密驗證資訊</string>
     <string name="random_code">隨機碼</string>
-    <string name="receipt_no">發票字軌</string>
+    <string name="receipt_no">發票號碼</string>
     <string name="receipt_date">發票開立日期</string>
     <string name="saler_ein">賣方統一編號</string>
     <string name="sales_amount_hex">銷售額(Hex)</string>
@@ -44,9 +44,13 @@
     <string name="quick_sum_period">期間</string>
     <string name="barcode_left_null">左下方的條碼沒掃到哦, 請再掃瞄一次</string>
     <string name="quick_sum_total_amount">當期總消費金額:</string>
-    <string name="prize_number_not_exist">木期尚未開獎</string>
+    <string name="prize_number_not_exist">本期尚未開獎</string>
     <string name="prize_check_result">\"恭喜中獎: %1$d\"</string>
     <string name="msg_no_prize">未中獎...</string>
     <string name="title_total_receipts">發票張數</string>
     <string name="title_total_amount">發票總金額</string>
+    <string name="header_prize_number">統一發票中獎號碼</string>
+    <string name="title_prize_number">中獎號碼</string>
+    <string name="title_scan">掃瞄</string>
+    <string name="title_summary">消費彙整</string>
 </resources>

@@ -53,4 +53,8 @@
     <string name="msg_no_prize">No Prize</string>
     <string name="title_total_receipts">Total Receipts</string>
     <string name="title_total_amount">Total Amount</string>
+    <string name="header_prize_number">Prize Number</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_prize_number">Prize Number</string>
+    <string name="title_summary">Summary</string>
 </resources>
