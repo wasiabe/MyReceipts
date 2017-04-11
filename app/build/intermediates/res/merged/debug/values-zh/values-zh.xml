@@ -17,12 +17,14 @@
     <string name="chinese_encode">中文編碼</string>
     <string name="encrypt_code">加密驗證資訊</string>
     <string name="header_prize_number">統一發票中獎號碼</string>
+    <string name="igotit">朕知道了</string>
     <string name="item_count">品目筆數</string>
     <string name="item_name">品名</string>
     <string name="item_quantity">數量</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
     <string name="msg_file_deleted">檔案己刪除</string>
     <string name="msg_no_prize">未中獎...</string>
+    <string name="msg_no_prize_for_this_period">本期未中獎</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">好</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>

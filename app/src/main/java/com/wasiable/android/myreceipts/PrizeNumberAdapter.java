@@ -1,5 +1,8 @@
 package com.wasiable.android.myreceipts;
 
+import android.content.Context;
+import android.content.res.Resources;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,7 +16,6 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import org.json.JSONArray;
@@ -28,8 +30,10 @@ import java.util.ArrayList;
 
 public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.PrizeNumberHolder>{
     private ArrayList<String> mDataset ;
+    private Context context;
 
-    public PrizeNumberAdapter(ArrayList<String> myDataset) {
+    public PrizeNumberAdapter(Context cntxt, ArrayList<String> myDataset) {
+        context = cntxt;
         mDataset = myDataset;
     }
 
@@ -44,9 +48,9 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
 
         @Override
         public void onClick(final View view) {
+
             final View v = view;
             int position  =   getAdapterPosition();
-            Log.d("RecyclerView", "CLICK!");
             Log.d("ItemClicked:", "Selected:"+ mDataset.get(position));
 
             final ReceiptFile receiptFile = new ReceiptFile();
@@ -70,6 +74,8 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     String period;
                     Integer totalPrize = 0;
+                    ArrayList<String> PrizeList = new ArrayList<String>();
+
                     for (DataSnapshot ds : dataSnapshot.getChildren() ){
                         for(DataSnapshot rules : ds.child("rules").getChildren()) {
                             PrizeNumber pn = new PrizeNumber();
@@ -88,11 +94,12 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
                                         JSONArray arr = json.getJSONArray("receipts");
                                         for(int j=0; j<=arr.length()-1; j++) {
                                             String ReceiptNumber = arr.getJSONObject(j).getString("ReceiptNo");
-                                            Log.d("ReceiptNumber", ReceiptNumber);
+                                            String ReceiptDate = arr.getJSONObject(j).getString("ReceiptDate");
 
                                             int Prize = pn.CheckPrizeNumber(ReceiptNumber);
                                             if (Prize > 0) {
                                                 totalPrize += Prize;
+                                                PrizeList.add(ReceiptNumber + " " + ReceiptDate + " $" + String.valueOf(Prize));
                                             }
                                         }
                                     } catch (JSONException e) {
@@ -102,7 +109,26 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
                             }
                         }
                     }
-                    Toast.makeText(v.getContext(), "Total Prize is " + totalPrize, Toast.LENGTH_LONG).show();
+                    AlertDialog.Builder alertPrize = new AlertDialog.Builder(context);
+                    String alertPrizeTitle = context.getString(R.string.title_prize_number);
+                    String alertPrizePostiveBtn = context.getString(R.string.igotit);
+                    if (totalPrize>0) {
+                        String Congratulations = String.format(context.getString(R.string.prize_check_result), totalPrize);
+                        Toast.makeText(v.getContext(), Congratulations, Toast.LENGTH_LONG).show();
+
+                        String[] PrizeArray = PrizeList.toArray(new String[PrizeList.size()]);
+                        alertPrize
+                            .setTitle(alertPrizeTitle)
+                            .setItems(PrizeArray, null)
+                            .setPositiveButton(alertPrizePostiveBtn,null)
+                            .show();
+                    } else {
+                        String no_prize = context.getString(R.string.msg_no_prize_for_this_period);
+                        alertPrize
+                                .setMessage(no_prize)
+                                .setPositiveButton(alertPrizePostiveBtn,null)
+                                .show();
+                    }
                 }
 
                 @Override

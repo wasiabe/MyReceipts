@@ -57,4 +57,7 @@
     <string name="title_scan">Scan</string>
     <string name="title_prize_number">Prize Number</string>
     <string name="title_summary">Summary</string>
+    <string name="leave">Quit</string>
+    <string name="igotit">Got it</string>
+    <string name="msg_no_prize_for_this_period">No prize for this period</string>
 </resources>

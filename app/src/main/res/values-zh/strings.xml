@@ -53,4 +53,6 @@
     <string name="title_prize_number">中獎號碼</string>
     <string name="title_scan">掃瞄</string>
     <string name="title_summary">消費彙整</string>
+    <string name="igotit">朕知道了</string>
+    <string name="msg_no_prize_for_this_period">本期未中獎</string>
 </resources>
