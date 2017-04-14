@@ -11,8 +11,9 @@
         tools:ignore="UselessParent">
 
         <Button android:id="@+id/scanReceipt"
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
             android:drawableLeft="@drawable/ic_search_white_24dp"
             android:layout_marginBottom="16dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
