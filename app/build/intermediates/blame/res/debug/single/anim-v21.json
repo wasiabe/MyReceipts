@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\wasia\\.android\\build-cache\\3504fc05f299e438f483ee80872d3df2b307b529\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
         "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\wasia\\.android\\build-cache\\b9e6b4ae60c14339413d4ed756d59df121482fea\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },

@@ -116,10 +116,10 @@
             android:authorities="com.wasiable.android.myreceipts.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
-
-        <service
-            android:name="com.android.tools.fd.runtime.InstantRunService"
-            android:exported="true" />
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.wasiable.android.myreceipts.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

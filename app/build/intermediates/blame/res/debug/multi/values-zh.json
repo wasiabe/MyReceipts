@@ -264,14 +264,7 @@
                     "endOffset": 1325
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
-                    "position": {
-                        "startLine": 56,
-                        "startColumn": 4,
-                        "startOffset": 2942,
-                        "endColumn": 62,
-                        "endOffset": 3000
-                    }
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
                 }
             },
             {
@@ -483,20 +476,27 @@
                     "startLine": 44,
                     "startColumn": 4,
                     "startOffset": 2327,
-                    "endColumn": 69,
-                    "endOffset": 2392
+                    "endColumn": 44,
+                    "endOffset": 2367
                 },
                 "from": {
-                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3006,
+                        "endColumn": 44,
+                        "endOffset": 3046
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2397,
-                    "endColumn": 56,
-                    "endOffset": 2449
+                    "startOffset": 2372,
+                    "endColumn": 69,
+                    "endOffset": 2437
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -506,9 +506,9 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2454,
-                    "endColumn": 51,
-                    "endOffset": 2501
+                    "startOffset": 2442,
+                    "endColumn": 56,
+                    "endOffset": 2494
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -518,9 +518,9 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 2506,
-                    "endColumn": 41,
-                    "endOffset": 2543
+                    "startOffset": 2499,
+                    "endColumn": 51,
+                    "endOffset": 2546
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -530,9 +530,9 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 2548,
-                    "endColumn": 46,
-                    "endOffset": 2590
+                    "startOffset": 2551,
+                    "endColumn": 41,
+                    "endOffset": 2588
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -542,9 +542,9 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 2595,
-                    "endColumn": 52,
-                    "endOffset": 2643
+                    "startOffset": 2593,
+                    "endColumn": 46,
+                    "endOffset": 2635
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -554,9 +554,9 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 2648,
-                    "endColumn": 53,
-                    "endOffset": 2697
+                    "startOffset": 2640,
+                    "endColumn": 52,
+                    "endOffset": 2688
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -566,8 +566,8 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 2702,
-                    "endColumn": 44,
+                    "startOffset": 2693,
+                    "endColumn": 53,
                     "endOffset": 2742
                 },
                 "from": {
@@ -579,8 +579,8 @@
                     "startLine": 52,
                     "startColumn": 4,
                     "startOffset": 2747,
-                    "endColumn": 53,
-                    "endOffset": 2796
+                    "endColumn": 44,
+                    "endOffset": 2787
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -590,9 +590,9 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 2801,
-                    "endColumn": 50,
-                    "endOffset": 2847
+                    "startOffset": 2792,
+                    "endColumn": 53,
+                    "endOffset": 2841
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -602,9 +602,9 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 2852,
-                    "endColumn": 41,
-                    "endOffset": 2889
+                    "startOffset": 2846,
+                    "endColumn": 50,
+                    "endOffset": 2892
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
@@ -614,9 +614,21 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 2894,
+                    "startOffset": 2897,
+                    "endColumn": 41,
+                    "endOffset": 2934
+                },
+                "from": {
+                    "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2939,
                     "endColumn": 43,
-                    "endOffset": 2933
+                    "endOffset": 2978
                 },
                 "from": {
                     "file": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\src\\main\\res\\values-zh\\strings.xml"

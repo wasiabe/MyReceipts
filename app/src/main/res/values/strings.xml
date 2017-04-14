@@ -60,4 +60,5 @@
     <string name="leave">Quit</string>
     <string name="igotit">Got it</string>
     <string name="msg_no_prize_for_this_period">No prize for this period</string>
+    <string name="show_detail">Show Detail</string>
 </resources>

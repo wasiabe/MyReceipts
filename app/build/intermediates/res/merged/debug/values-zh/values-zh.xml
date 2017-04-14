@@ -42,6 +42,7 @@
     <string name="saler_ein">賣方統一編號</string>
     <string name="sales_amount">銷售額</string>
     <string name="sales_amount_hex">銷售額(Hex)</string>
+    <string name="show_detail">顯示明細</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="title_del_receipt_file">刪除發票檔</string>
     <string name="title_prize_number">中獎號碼</string>

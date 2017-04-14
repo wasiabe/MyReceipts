@@ -49,6 +49,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
     // use a compound button so either checkbox or switch widgets work.
     private CompoundButton autoFocus;
     private CompoundButton useFlash;
+    private CompoundButton showReceipt;
     private TextView statusMessage;
     private TextView barcodeValue;
     private String ReceiptNo = "";
@@ -69,6 +70,7 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
 
         autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
         useFlash = (CompoundButton) findViewById(R.id.use_flash);
+        showReceipt = (CompoundButton) findViewById(R.id.show_receipt);
 
         findViewById(R.id.read_barcode).setOnClickListener(this);
     }
@@ -157,6 +159,8 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             TextView tvBarcodeValue  = (TextView) findViewById(R.id.barcode_value);
                             String orgValue = (String) tvBarcodeValue.getText();
+                            tvBarcodeValue.setText(orgValue + "  " + getString(R.string.msg_no_prize));
+                            boolean didntWin = true;
 
                             if (!dataSnapshot.exists()) {
                                 statusMessage.setText(R.string.prize_number_not_exist);
@@ -169,14 +173,14 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                                     pn.prizes = (ArrayList<Integer>) rules.child("prizes").getValue();
                                     int Prize = pn.CheckPrizeNumber(ReceiptNo);
                                     if (Prize > 0) {
-                                        tvBarcodeValue.setText(orgValue + String.format( getString(R.string.prize_check_result),Prize));
+                                        didntWin = false;
+                                        tvBarcodeValue.setText(orgValue + "  " + String.format( getString(R.string.prize_check_result),Prize));
                                         Toast.makeText(BarcodeActivity.this, String.format( getString(R.string.prize_check_result),Prize), Toast.LENGTH_LONG);
-                                    } else {
-                                        tvBarcodeValue.setText(orgValue + getString(R.string.msg_no_prize));
-                                        Toast.makeText(BarcodeActivity.this, getString(R.string.msg_no_prize), Toast.LENGTH_LONG);
                                     }
-
                                 }
+                            }
+                            if (didntWin) {
+                                Toast.makeText(BarcodeActivity.this, getString(R.string.msg_no_prize), Toast.LENGTH_LONG);
                             }
                         }
 
@@ -196,12 +200,13 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                             Toast.makeText(this, getString(R.string.receipt_duplicated),  Toast.LENGTH_LONG).show();
                         } else {
                             receiptFile.WriteReceiptToFile(this, receipt);
-
-                            AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
-                                    .setTitle("Receipt Information")
-                                    .setItems(lstReceiptInfo, null)
-                                    .setPositiveButton(R.string.ok, null)
-                                    .show();
+                            if (showReceipt.isChecked()) {
+                                AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
+                                        .setTitle("Receipt Information")
+                                        .setItems(lstReceiptInfo, null)
+                                        .setPositiveButton(R.string.ok, null)
+                                        .show();
+                            }
                         }
                     } catch (Exception e) {
                         e.printStackTrace();

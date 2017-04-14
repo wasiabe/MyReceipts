@@ -56,7 +56,7 @@ public class QuickSumItemAdapter extends RecyclerView.Adapter<QuickSumItemAdapte
         try {
             MonthlySummary ms = (MonthlySummary)mDataset.get(position);
             holder.tvPeriod.setText(ms.Period);
-            holder.tvTotalAmount.setText(ms.TotalAmount.toString());
+            holder.tvTotalAmount.setText("$" + ms.TotalAmount.toString());
             holder.tvTotalReceipts.setText(ms.TotoaReceipts.toString());
         } catch (Exception e) {
             e.printStackTrace();
