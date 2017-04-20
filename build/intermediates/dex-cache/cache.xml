@@ -20,6 +20,24 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_118147eefcc46cf70df0fae72f959a642c9a7ede\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_81207772a1c9412afeb9d7448c45f050076a6ef7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\8b40448cee03ac12fc5ebdba97141f52049bf5f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_15d1bda6bed1928a713110ba2142e2c662ade326.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
         jumboMode="true"
@@ -27,6 +45,33 @@
         revision="24.0.1"
         sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_4f1a278f107cb04f0bf772ec92df6443d4c7ae03\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\support-annotations-25.3.0_31b1e1b51d1a34acd188c505534b23633cf38285.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\fa89c44dfa962b53bdbee0e1611b0309e4faf7ad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_7f5e43806b0ed91004b6d1eea12db5e0a1d3136d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\42d276b7d808c943fd8918e2e7500887e95484fd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_cd2eb313f619ef05a1c906ba717e6a67450aebc4.jar" />
     </item>
     <item
         is-multidex="true"
@@ -45,6 +90,15 @@
         revision="25.0.0"
         sha1="0e485673918b6b6779789be0c1c8c7ab095f8efd">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\7ee10899bc249799cf568c57745a910af61e99e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_013f5fc730676eafcff8871b38b02b9338e978b2.jar" />
     </item>
     <item
         is-multidex="true"
@@ -83,6 +137,15 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_d342eed86ae381b5cf540443d217b9cebb31d556\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\4b173b909a764c320dd5d5c0d814da4efbf907a9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_9c51f1df4b4ed0848389a9bc2dd68616f1192134.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
         jumboMode="true"
@@ -92,6 +155,15 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_14c35d1b9f10fd14c229b1a1994f262aad1da2cf\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\1105ce29e4ce9f363d0bf79abb9b0d04635916aa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e684205744f814a73b7752545e0661330415c9e">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_63fe27373407d79dfc53d65c0d7aacf432a0629c.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
@@ -99,6 +171,33 @@
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e395eb4f192338c188d048f46759c8afb825c31a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\af5a133568a404405217ef0e6fe3f2ddae5a2027\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_a521243bbd6576ace0340fe9b1caee490f9f1019.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\be1d368666e8386f5ffd5fe26c3c01a95d0a6e13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_47cd34b75b1c551f46293c56fad2856b10bc5876.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\d078374a40280fb8b2060a8878d651e27e3d2c40\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_c7a8af57df35a42a272eec64db01625477d5b586.jar" />
     </item>
     <item
         is-multidex="true"
@@ -171,6 +270,15 @@
         revision="24.0.1"
         sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_58175ff9ee8a25e77b4f9d78d71284746c86376f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\153fb48a0d0f34ff2df7a6cd9119caceba4f37c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_31e8e9abfeba7f3cf4233ecf83b11855cc424787.jar" />
     </item>
     <item
         is-multidex="true"
@@ -272,6 +380,15 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c51f1df4b4ed0848389a9bc2dd68616f1192134\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\9283f2bf5734c5983352e2c78226d6e66b0b4282\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_62aadd475242964c159bf76a1c81732c01af3ad3.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
@@ -279,6 +396,15 @@
         revision="24.0.1"
         sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_54aa09e9a50b8425820132e803b58ab55ea268e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\b9e6b4ae60c14339413d4ed756d59df121482fea\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_8d62123b30c18848034e4d492b6527ee0e4ffeb1.jar" />
     </item>
     <item
         is-multidex="true"
@@ -335,6 +461,15 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cd2eb313f619ef05a1c906ba717e6a67450aebc4\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\3814f7145035e79e7554b48a9ee34a0008996a30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_67dd42237f9694d1b2f1193170b790b806fce46a.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\.android\build-cache\d078374a40280fb8b2060a8878d651e27e3d2c40\output\jars\classes.jar"
         jumboMode="true"
@@ -344,6 +479,15 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7a8af57df35a42a272eec64db01625477d5b586\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_f310be26b18acce747c743389908217139a816a9.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
         jumboMode="true"
@@ -351,6 +495,15 @@
         revision="24.0.1"
         sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_94fb20e971d26d34c443db81dd5792abf6e395f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\dce2a0c4c2ad50e96a15836ac71469c63f2c0d98\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_fc3de65f62b2b5e6e345125f764fa6b6376e30eb.jar" />
     </item>
     <item
         is-multidex="true"
@@ -376,8 +529,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a7fea626295a2e2a24269dfe18c48b0f173ae9ca">
+        sha1="00a79354794545895b75eca2930f11e478420a0a">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\daf5b830cb09bec3cc57d997f3d072085836ed17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_8084cc323f74fa596c5deb0b40801a72be6cb132.jar" />
     </item>
     <item
         is-multidex="true"
@@ -425,6 +587,33 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_62e06a6edc4751b2c8d3bc68cc3853e072c1c632\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\gson-2.7_8c162394c48f70fa56c73e26e99dcc72a21b7a56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\3a55c5fe2ed0e9423699ece58587350fdec679cb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_0fed7b7eb2fe72ec0d61fe2d9ae32049d1d0fdaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\e48308b4497062efe2154507082b11890fc22e5f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_780b411b8ac911327e18602e8e88acb6588aeb3c.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
@@ -432,6 +621,15 @@
         revision="24.0.1"
         sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_b4ca518767614a665738d9128e8739a729e64cd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\0c02fbf2266f446a6b77277d86c084515b81c54a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_7dad3f623f15df68f49306de70bebbdca6d5ce78.jar" />
     </item>
     <item
         is-multidex="true"
@@ -452,6 +650,15 @@
         <dex dex="C:\Users\wasia\AndroidStudioProjects\visionSamples\barcode-reader\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_0faec18eddf428fec6f54a8adb8e8df1a9d84e38\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\dc995c7ff83c0bfa7fafc29639c76afc1c0bc8d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_93a1e0d36bb91f1029f3091a91af06602d378fd0.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\wasia\.android\build-cache\153fb48a0d0f34ff2df7a6cd9119caceba4f37c1\output\jars\classes.jar"
         jumboMode="true"
@@ -459,6 +666,24 @@
         revision="25.0.2"
         sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31e8e9abfeba7f3cf4233ecf83b11855cc424787\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\cdd284298638b14e1b82e7fdbcc181e6bc22f5ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_44c98fe81b886cc90ca813f958208f1fe8065f0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\wasia\.android\build-cache\d2b5a46626d81d520d43c9fe0e6e03f3633099a8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\pre-dexed\release\classes_88c11f2c550a5c395d18953979d77277fd660d80.jar" />
     </item>
 
 </items>

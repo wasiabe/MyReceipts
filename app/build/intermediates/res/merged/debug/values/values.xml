@@ -627,6 +627,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_del_receipt_file">Delete Receipt File</string>
+    <string name="app_label">MyReceipts</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auto_focus">Auto Focus</string>
     <string name="barcode_error">"Error reading barcode: %1$s"</string>
