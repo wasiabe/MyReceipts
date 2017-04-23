@@ -1,6 +1,9 @@
 package com.wasiable.android.myreceipts;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,9 +22,11 @@ import java.util.ArrayList;
 
 public class QuickSumItemAdapter extends RecyclerView.Adapter<QuickSumItemAdapter.QuickSumItemHolder>{
     private ArrayList<MonthlySummary> mDataset ;
+    private Context context;
 
-    public QuickSumItemAdapter(ArrayList<MonthlySummary> myDataset)  {
+    public QuickSumItemAdapter(Context cntxt, ArrayList<MonthlySummary> myDataset)  {
         mDataset = myDataset;
+        context = cntxt;
     }
 
     public class QuickSumItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -39,7 +44,16 @@ public class QuickSumItemAdapter extends RecyclerView.Adapter<QuickSumItemAdapte
 
         @Override
         public void onClick(View view) {
+            final View v = view;
+            int position = getAdapterPosition();
+            Log.d("ItemClicked:", "Selected:"+ mDataset.get(position));
 
+            MonthlySummary ms = (MonthlySummary)mDataset.get(position);
+            String Period = ms.Period.replace("/","");
+
+            Intent intent = new Intent(context, ReceiptActivity.class);
+            intent.putExtra(ReceiptActivity.PERIOD, Period);
+            context.startActivity(intent);
         }
     }
 

@@ -50,7 +50,7 @@ public class PrizeNumberAdapter extends RecyclerView.Adapter<PrizeNumberAdapter.
         public void onClick(final View view) {
 
             final View v = view;
-            int position  =   getAdapterPosition();
+            int position = getAdapterPosition();
             Log.d("ItemClicked:", "Selected:"+ mDataset.get(position));
 
             final ReceiptFile receiptFile = new ReceiptFile();

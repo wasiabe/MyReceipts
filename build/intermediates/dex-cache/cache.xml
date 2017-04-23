@@ -529,7 +529,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="00a79354794545895b75eca2930f11e478420a0a">
+        sha1="f4ddafd26187833da22e25ee339ad2a4e800e8e5">
         <dex dex="C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b6754c00cdeb8a0c7a14f1b3e706478df0801860\classes.dex" />
     </item>
     <item

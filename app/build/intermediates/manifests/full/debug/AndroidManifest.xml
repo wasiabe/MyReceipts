@@ -46,8 +46,7 @@
 
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
+            android:label="@string/title_activity_main" />
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity"
             android:label="Read Barcode" />
@@ -58,6 +57,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.wasiable.android.myreceipts.ReceiptActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

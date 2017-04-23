@@ -4,17 +4,13 @@
     package="com.google.android.gms.samples.vision.barcodereader"
     android:installLocation="auto">
 
+    <uses-sdk tools:overrideLibrary="com.google.android.gms.vision,             com.google.android.gms.base,             com.google.android.gms.tasks,             com.google.android.gms" />
+
     <uses-feature android:name="android.hardware.camera" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-    <uses-sdk
-        tools:overrideLibrary="com.google.android.gms.vision,
-            com.google.android.gms.base,
-            com.google.android.gms.tasks,
-            com.google.android.gms"/>
 
     <application
         android:allowBackup="true"
@@ -33,8 +29,7 @@
 
         <activity
             android:name=".BarcodeActivity"
-            android:label="@string/title_activity_main">
-        </activity>
+            android:label="@string/title_activity_main"></activity>
         <activity
             android:name=".BarcodeCaptureActivity"
             android:label="Read Barcode" />
@@ -45,6 +40,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.wasiable.android.myreceipts.ReceiptActivity"></activity>
     </application>
 
 </manifest>

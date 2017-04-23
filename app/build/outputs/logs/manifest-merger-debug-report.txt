@@ -17,24 +17,8 @@ ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidM
 		INJECTED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml
 	android:installLocation
 		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:5:5-35
-uses-feature#android.hardware.camera
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:7:5-60
-	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:7:19-57
-uses-permission#android.permission.CAMERA
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:9:5-65
-	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:9:22-62
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:10:5-81
-	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:10:22-78
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:11:5-80
-	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:11:22-77
 uses-sdk
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:12:5-17:39
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:7:5-190
 MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-vision:10.2.1] C:\Users\wasia\.android\build-cache\1105ce29e4ce9f363d0bf79abb9b0d04635916aa\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\AndroidManifest.xml:17:5-43
@@ -46,6 +30,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia
 MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\8b40448cee03ac12fc5ebdba97141f52049bf5f8\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\wasia\.android\build-cache\42d276b7d808c943fd8918e2e7500887e95484fd\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\be1d368666e8386f5ffd5fe26c3c01a95d0a6e13\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] C:\Users\wasia\.android\build-cache\e079f3f33e44d26fb124e0d33de468a8650ad6dd\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\wasia\.android\build-cache\c07455d437cb5a999cb604777b16803386199809\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\wasia\.android\build-cache\dce2a0c4c2ad50e96a15836ac71469c63f2c0d98\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\wasia\.android\build-cache\0c02fbf2266f446a6b77277d86c084515b81c54a\output\AndroidManifest.xml:17:5-43
@@ -60,15 +45,31 @@ MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android
 MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\e48308b4497062efe2154507082b11890fc22e5f\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\153fb48a0d0f34ff2df7a6cd9119caceba4f37c1\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:12:5-17:39
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:7:15-187
 	android:targetSdkVersion
 		INJECTED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:9:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:13:22-77
 application
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:15:5-44:19
 MERGED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-vision:10.2.1] C:\Users\wasia\.android\build-cache\1105ce29e4ce9f363d0bf79abb9b0d04635916aa\output\AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\wasia\.android\build-cache\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\output\AndroidManifest.xml:18:5-20:19
@@ -77,6 +78,7 @@ MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\wasia\.android\bu
 MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\d2b5a46626d81d520d43c9fe0e6e03f3633099a8\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\wasia\.android\build-cache\8b40448cee03ac12fc5ebdba97141f52049bf5f8\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.0] C:\Users\wasia\.android\build-cache\be1d368666e8386f5ffd5fe26c3c01a95d0a6e13\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] C:\Users\wasia\.android\build-cache\e079f3f33e44d26fb124e0d33de468a8650ad6dd\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\wasia\.android\build-cache\c07455d437cb5a999cb604777b16803386199809\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\wasia\.android\build-cache\dce2a0c4c2ad50e96a15836ac71469c63f2c0d98\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\wasia\.android\build-cache\0c02fbf2266f446a6b77277d86c084515b81c54a\output\AndroidManifest.xml:24:5-28:19
@@ -91,58 +93,62 @@ MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\wasia\.android
 MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\wasia\.android\build-cache\e48308b4497062efe2154507082b11890fc22e5f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.0] C:\Users\wasia\.android\build-cache\153fb48a0d0f34ff2df7a6cd9119caceba4f37c1\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:34:13-56
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:20:9-42
 	android:supportsRtl
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:21:9-35
 	android:hardwareAccelerated
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:18:9-43
 	android:fullBackupContent
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:17:9-42
 	android:allowBackup
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:19:9-43
 	android:theme
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:9-46:19
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:22:9-65
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:28:9-29:69
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\wasia\.android\build-cache\d078374a40280fb8b2060a8878d651e27e3d2c40\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:28:9-29:69
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:29:13-70
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:24:13-58
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:31:9-32:39
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:26:9-28:39
 	android:value
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:31:9-32:39
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:32:13-44
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:27:13-70
 activity#com.google.android.gms.samples.vision.barcodereader.BarcodeActivity
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:34:9-37:20
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:30:9-32:68
 	android:label
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:32:13-56
 	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:35:13-51
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:31:13-44
 activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:40:17-44
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:33:9-35:44
 	android:label
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:40:17-44
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:35:13-41
+	android:name
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:34:13-51
+activity#com.wasiable.android.myreceipts.MainActivity
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:36:9-42:20
+	android:name
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:36:19-78
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
 		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:40:27-74
-activity#com.wasiable.android.myreceipts.MainActivity
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:41:1-46:20
+activity#com.wasiable.android.myreceipts.ReceiptActivity
+ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:9-93
 	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:41:1-46:20
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:41:13-43:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:1-69
-	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:1-69
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:1-77
-	android:name
-		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:1-77
+		ADDED from C:\Users\wasia\AndroidStudioProjects\MyReceipts\app\src\main\AndroidManifest.xml:43:19-81
 meta-data#android.support.VERSION
 ADDED from [com.android.support:cardview-v7:25.3.0] C:\Users\wasia\.android\build-cache\d34f4701856f6855f10c0e39d02a96bc79f12a71\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:design:25.3.0] C:\Users\wasia\.android\build-cache\b9e6b4ae60c14339413d4ed756d59df121482fea\output\AndroidManifest.xml:25:5-27:34
