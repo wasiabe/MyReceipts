@@ -30,8 +30,8 @@ public class ReceiptAdapter extends RecyclerView.Adapter<ReceiptAdapter.ReceiptH
         public ReceiptHolder(View itemView) {
             super(itemView);
             tvReceiptNo = (TextView)itemView.findViewById(R.id.dtl_receipt_no);
-            //tvReceiptDate = (TextView)itemView.findViewById(R.id.receipt_date);
-            //tvReceiptTotalAmount = (TextView)itemView.findViewById(R.id.receipt_total_amount);
+            tvReceiptDate = (TextView)itemView.findViewById(R.id.dtl_receipt_date);
+            tvReceiptTotalAmount = (TextView)itemView.findViewById(R.id.dtl_receipt_total_amount);
             itemView.setOnClickListener(this);
         }
 
@@ -61,8 +61,8 @@ public class ReceiptAdapter extends RecyclerView.Adapter<ReceiptAdapter.ReceiptH
             String ReceiptDate = json.getString("ReceiptDate");
             String TotalAmount = String.valueOf(json.getInt("TotalAmount"));
             tvReceiptNo.setText(ReceiptNO);
-            //tvReceiptDate.setText(ReceiptDate.substring(0,3) + "/" + ReceiptDate.substring(3,5) + "/" + ReceiptDate.substring(5,7));
-            //tvReceiptTotalAmount.setText(TotalAmount);
+            tvReceiptDate.setText(ReceiptDate.substring(0,3) + "/" + ReceiptDate.substring(3,5) + "/" + ReceiptDate.substring(5,7));
+            tvReceiptTotalAmount.setText("$" + TotalAmount);
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -72,5 +72,11 @@ public class ReceiptAdapter extends RecyclerView.Adapter<ReceiptAdapter.ReceiptH
     public int getItemCount() {
 
         return mDataset.size();
+    }
+
+    public void setFilter(ArrayList<JSONObject> newList) {
+        mDataset.clear();
+        mDataset.addAll(newList);
+        notifyDataSetChanged();
     }
 }
