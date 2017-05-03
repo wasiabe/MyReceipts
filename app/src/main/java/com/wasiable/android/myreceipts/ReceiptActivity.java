@@ -87,7 +87,10 @@ public class ReceiptActivity extends AppCompatActivity implements SearchView.OnQ
         ArrayList<JSONObject> newList = new ArrayList<JSONObject>();
         try {
             for(JSONObject receipt: lstJSONReceipt) {
-                if (receipt.getString("ReceiptNo").contains(newText)) {
+                if (receipt.getString("ReceiptNo").contains(newText)
+                        || receipt.getString("ReceiptDate").contains(newText)
+                        || receipt.getString("ItemContent").contains(newText)
+                        ) {
                     newList.add(receipt);
                 }
             }

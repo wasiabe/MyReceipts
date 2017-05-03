@@ -200,13 +200,13 @@ public class BarcodeActivity extends Activity implements View.OnClickListener {
                             Toast.makeText(this, getString(R.string.receipt_duplicated),  Toast.LENGTH_LONG).show();
                         } else {
                             receiptFile.WriteReceiptToFile(this, receipt);
-                            if (showReceipt.isChecked()) {
-                                AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
-                                        .setTitle("Receipt Information")
-                                        .setItems(lstReceiptInfo, null)
-                                        .setPositiveButton(R.string.ok, null)
-                                        .show();
-                            }
+                        }
+                        if (showReceipt.isChecked()) {
+                            AlertDialog diagReceiptInfo = new AlertDialog.Builder(this)
+                                    .setTitle("Receipt Information")
+                                    .setItems(lstReceiptInfo, null)
+                                    .setPositiveButton(R.string.ok, null)
+                                    .show();
                         }
                     } catch (Exception e) {
                         e.printStackTrace();
