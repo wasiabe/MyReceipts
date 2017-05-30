@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.gms.samples.vision.barcodereader.R;
 import org.json.JSONArray;
@@ -73,6 +74,7 @@ public class ReceiptActivity extends AppCompatActivity implements SearchView.OnQ
         MenuItem search = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(search);
         searchView.setOnQueryTextListener(this);
+        searchView.setQueryHint(getString(R.string.search_title_receipt));
         return true;
     }
 
@@ -85,17 +87,24 @@ public class ReceiptActivity extends AppCompatActivity implements SearchView.OnQ
     public boolean onQueryTextChange(String newText) {
         newText = newText.toUpperCase();
         ArrayList<JSONObject> newList = new ArrayList<JSONObject>();
+        Integer ResultCount = 0;
+        Integer ResultTotalAmount = 0;
+        String  ResultString = "";
         try {
             for(JSONObject receipt: lstJSONReceipt) {
                 if (receipt.getString("ReceiptNo").contains(newText)
-                        || receipt.getString("ReceiptDate").contains(newText)
+                        || receipt.getString("ReceiptDate").contains(newText.replace("/",""))
                         || receipt.getString("ItemContent").contains(newText)
                         ) {
                     newList.add(receipt);
+                    ResultCount += 1;
+                    ResultTotalAmount += Integer.valueOf(receipt.getString("TotalAmount"));
                 }
             }
             mAdapter = new ReceiptAdapter(newList);
             mRecyclerView.setAdapter(mAdapter);
+            ResultString = String.format(getString(R.string.search_result_text),ResultTotalAmount);
+            Toast.makeText(this, ResultString, Toast.LENGTH_LONG).show();
         } catch (JSONException e) {
         e.printStackTrace();
     }

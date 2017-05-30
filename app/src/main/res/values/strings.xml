@@ -62,4 +62,6 @@
     <string name="msg_no_prize_for_this_period">No prize for this period</string>
     <string name="show_detail">Show Detail</string>
     <string name="app_label">MyReceipts</string>
+    <string name="search_title_receipt">Search Date, Item or Receipt No</string>
+    <string name="search_result_text">Matched sum: $%1$d</string>
 </resources>

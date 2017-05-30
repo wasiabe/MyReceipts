@@ -192,12 +192,12 @@
         "source": "C:\\Users\\wasia\\.android\\build-cache\\daf5b830cb09bec3cc57d997f3d072085836ed17\\output\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\googleg_standard_color_18.png",
-        "source": "C:\\Users\\wasia\\.android\\build-cache\\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\\output\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
-    },
-    {
         "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "C:\\Users\\wasia\\.android\\build-cache\\daf5b830cb09bec3cc57d997f3d072085836ed17\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\wasia\\.android\\build-cache\\bccc8f36666335b2ab0f848d12f8b62d4a7d0bb7\\output\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\wasia\\AndroidStudioProjects\\MyReceipts\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",

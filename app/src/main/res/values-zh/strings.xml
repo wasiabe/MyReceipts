@@ -60,4 +60,6 @@
     <string name="dummy_section_text">Section %1d is just a dummy section.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="leave">離開</string>
+    <string name="search_title_receipt">搜尋日期, 品名或發票號碼</string>
+    <string name="search_result_text">發票金額共$%1$d</string>
 </resources>

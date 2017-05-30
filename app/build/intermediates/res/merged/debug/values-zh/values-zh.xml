@@ -46,6 +46,8 @@
     <string name="saler_ein">賣方統一編號</string>
     <string name="sales_amount">銷售額</string>
     <string name="sales_amount_hex">銷售額(Hex)</string>
+    <string name="search_result_text">發票金額共$%1$d</string>
+    <string name="search_title_receipt">搜尋日期, 品名或發票號碼</string>
     <string name="show_detail">顯示明細</string>
     <string name="title_activity_main">Barcode Reader Sample</string>
     <string name="title_del_receipt_file">刪除發票檔</string>
